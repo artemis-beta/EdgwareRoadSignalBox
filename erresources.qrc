@@ -7,6 +7,8 @@
         <file>svgs/Yellow_LeverBack.svg</file>
         <file>svgs/Yellow_LeverForward.svg</file>
         <file>svgs/EWRBFrame.svg</file>
+        <file>svgs/PointIndicatorNorm.svg</file>
+        <file>svgs/PointIndicatorReverse.svg</file>
     </qresource>
     <qresource prefix="/audio">
         <file>audio/lever_move_1.wav</file>

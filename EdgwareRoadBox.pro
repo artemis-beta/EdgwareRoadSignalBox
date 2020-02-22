@@ -19,12 +19,15 @@ SOURCES += \
     framelever.cxx \
     leverframe.cxx \
     main.cpp \
-    ermainwindow.cxx
+    ermainwindow.cxx \
+    pointsindicator.cxx
 
 HEADERS += \
     ermainwindow.hxx \
     framelever.hxx \
-    leverframe.hxx
+    global_params.hxx \
+    leverframe.hxx \
+    pointsindicator.hxx
 
 FORMS += \
     ermainwindow.ui

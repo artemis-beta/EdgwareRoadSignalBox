@@ -12,20 +12,32 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
     for(int i{1}; i < 13; ++i)
     {
         _levers[i] = new EWRB::HomeLever(_parent);
-        _levers[i]->PlaceAt(25+(i-1)*24.1, 620);
+        _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
         _levers[i]->showSVG();
     }
     for(int i{13}; i < 28; ++i)
     {
         _levers[i] = new EWRB::PointsLever(_parent);
-        _levers[i]->PlaceAt(25+(i-1)*24.1, 620);
+        if(i != 16 && i != 18)
+        {   _indicators[i] = new EWRB::PointsIndicator((EWRB::PointsLever*)_levers[i], _parent);
+            _indicators[i]->PlaceAt(26+(i-1)*24.1, 580);
+        }
+        _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
         _levers[i]->showSVG();
     }
 
     for(int i{28}; i < 39; ++i)
     {
         _levers[i] = new EWRB::HomeLever(_parent);
-        _levers[i]->PlaceAt(25+(i-1)*24.1, 620);
+        _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
         _levers[i]->showSVG();
+    }
+}
+
+void EWRB::LeverFrame::update()
+{
+    for(auto pi : _indicators)
+    {
+        pi->update();
     }
 }

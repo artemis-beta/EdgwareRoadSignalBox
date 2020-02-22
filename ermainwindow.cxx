@@ -51,6 +51,7 @@ void ERMainWindow::_play_random_lever_sound()
 void ERMainWindow::_lever_action(const int &i)
 {
     _lever_frame->operator[](i)->moveLever();
+    _lever_frame->update();
     _play_random_lever_sound();
 }
 

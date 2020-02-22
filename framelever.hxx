@@ -8,33 +8,28 @@
 #include <QDebug>
 #include <QPushButton>
 
+#include "global_params.hxx"
+
 namespace EWRB
 {
-
-    enum class State
-    {
-        Off,
-        On
-    };
-
     class FrameLever
     {
         private:
             QWidget* _parent = nullptr;
-            QMap<State, QSvgWidget*> _svgs = {{}};
+            QMap<LeverState, QSvgWidget*> _svgs = {{}};
             double _scale_factor = 1.;
             int _coords[2] = {0,0};
-            State _current_state = State::Off;
+            LeverState _current_state = LeverState::Off;
         public:
             FrameLever(const QString& lever_name, QWidget* parent, const double scale_fac=1) :
                 _scale_factor(scale_fac), _parent(parent)
             {
-                _svgs[State::Off] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverBack.svg"), _parent);
-                _svgs[State::Off]->setFixedSize(20, 80);
-                _svgs[State::Off]->hide();
-                _svgs[State::On] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverForward.svg"), _parent);
-                _svgs[State::On]->setFixedSize(20, 80);
-                _svgs[State::On]->hide();
+                _svgs[LeverState::Off] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverBack.svg"), _parent);
+                _svgs[LeverState::Off]->setFixedSize(25, 100);
+                _svgs[LeverState::Off]->hide();
+                _svgs[LeverState::On] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverForward.svg"), _parent);
+                _svgs[LeverState::On]->setFixedSize(25, 100);
+                _svgs[LeverState::On]->hide();
             }
             QSvgWidget* getWidget() const {return _svgs[_current_state];}
             void Scale(double& scale_factor){_scale_factor *= scale_factor;}
@@ -42,6 +37,7 @@ namespace EWRB
             void hideSVG();
             void showSVG();
             void moveLever();
+            EWRB::LeverState getState() const {return _current_state;}
     };
 
     class HomeLever : public FrameLever

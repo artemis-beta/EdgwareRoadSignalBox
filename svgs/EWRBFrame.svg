@@ -351,7 +351,8 @@
        y1="292.15122"
        x2="262.32224"
        y2="292.15122"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.77679386,0,66.279024)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2506"
@@ -1407,7 +1408,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="510.8176"
+     inkscape:cx="510.31253"
      inkscape:cy="148.93997"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -1442,16 +1443,9 @@
        id="path815"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
-    <rect
-       style="fill:#000000;fill-opacity:0.51184836;stroke:none;stroke-width:0.31008744;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1048"
-       width="254.66145"
-       height="8.4099703"
-       x="5.7641358"
-       y="274.68045" />
     <g
        id="g1505"
-       transform="matrix(0.80226341,0,0,1,1.1584654,-7.9375002)">
+       transform="matrix(0.80226341,0,0,1,1.1584654,-2.6458332)">
       <rect
          transform="scale(1,-1)"
          y="-290.95236"
@@ -1774,12 +1768,12 @@
          style="fill:#1e262a;fill-opacity:1;stroke:#939393;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <rect
-       style="fill:url(#linearGradient2483);fill-opacity:1;stroke:none;stroke-width:0.26465768;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient2483);fill-opacity:1;stroke:none;stroke-width:0.23325846;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2451"
        width="258.14157"
-       height="9.5792894"
+       height="7.441133"
        x="4.180666"
-       y="287.36157" />
+       y="289.49973" />
     <rect
        style="fill:url(#linearGradient2461);fill-opacity:1;stroke:none;stroke-width:0.2466889;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2453"
@@ -2721,7 +2715,7 @@
          id="tspan3695-0-1-5-7-9-76-0"
          x="102.86177"
          y="256.05164"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">15</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">16</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
