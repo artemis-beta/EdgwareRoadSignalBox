@@ -4,9 +4,13 @@
 #include <QMainWindow>
 #include <QSvgWidget>
 #include <QMap>
+#include <QObject>
+#include <QDebug>
+#include <QPushButton>
 
 namespace EWRB
 {
+
     enum class State
     {
         Off,
@@ -23,7 +27,7 @@ namespace EWRB
             State _current_state = State::Off;
         public:
             FrameLever(const QString& lever_name, QWidget* parent, const double scale_fac=1) :
-                _parent(parent), _scale_factor(scale_fac)
+                _scale_factor(scale_fac), _parent(parent)
             {
                 _svgs[State::Off] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverBack.svg"), _parent);
                 _svgs[State::Off]->setFixedSize(20, 80);
@@ -34,22 +38,10 @@ namespace EWRB
             }
             QSvgWidget* getWidget() const {return _svgs[_current_state];}
             void Scale(double& scale_factor){_scale_factor *= scale_factor;}
-            void PlaceAt(const int& x, const int& y)
-            {
-                _coords[0] = x; _coords[1] = y;
-
-                for(auto svg : _svgs) svg->move(_coords[0], _coords[1]);
-            }
-
-            void hide()
-            {
-                _svgs[_current_state]->hide();
-            }
-
-            void show()
-            {
-                _svgs[_current_state]->show();
-            }
+            void PlaceAt(const int& x, const int& y);
+            void hideSVG();
+            void showSVG();
+            void moveLever();
     };
 
     class HomeLever : public FrameLever

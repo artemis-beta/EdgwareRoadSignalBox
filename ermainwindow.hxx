@@ -5,6 +5,9 @@
 #include <QImage>
 #include <QMap>
 #include <QSvgWidget>
+#include <QSoundEffect>
+
+#include <algorithm>
 
 #include "leverframe.hxx"
 
@@ -22,6 +25,11 @@ public:
 
 private:
     Ui::ERMainWindow *ui;
+    QList<QSoundEffect*> _lever_sounds;
     EWRB::LeverFrame* _lever_frame = new EWRB::LeverFrame(this);
+    QMap<int, QPushButton*> _lever_frame_buttons;
+    void _play_random_lever_sound();
+public slots:
+    void _lever_action(const int& i);
 };
 #endif // ERMAINWINDOW_HXX

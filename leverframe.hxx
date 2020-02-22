@@ -17,6 +17,11 @@ namespace EWRB
             QMap<int, EWRB::FrameLever*> _levers;
         public:
             LeverFrame(QWidget* parent);
+            EWRB::FrameLever* operator[](const int& i)
+            {
+                return _levers[i];
+            }
+            QList<int> levers() const {return _levers.keys();}
     };
 };
 #endif // LEVERFRAME_HXX

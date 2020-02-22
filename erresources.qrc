@@ -8,4 +8,14 @@
         <file>svgs/Yellow_LeverForward.svg</file>
         <file>svgs/EWRBFrame.svg</file>
     </qresource>
+    <qresource prefix="/audio">
+        <file>audio/lever_move_1.wav</file>
+        <file>audio/lever_move_2.wav</file>
+        <file>audio/lever_move_3.wav</file>
+        <file>audio/lever_move_4.wav</file>
+        <file>audio/lever_move_5.wav</file>
+        <file>audio/lever_move_6.wav</file>
+        <file>audio/lever_move_7.wav</file>
+        <file>audio/lever_move_8.wav</file>
+    </qresource>
 </RCC>

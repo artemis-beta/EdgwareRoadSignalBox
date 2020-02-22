@@ -13,21 +13,19 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
     {
         _levers[i] = new EWRB::HomeLever(_parent);
         _levers[i]->PlaceAt(25+(i-1)*24.1, 620);
-        _levers[i]->show();
+        _levers[i]->showSVG();
     }
-
     for(int i{13}; i < 28; ++i)
     {
         _levers[i] = new EWRB::PointsLever(_parent);
         _levers[i]->PlaceAt(25+(i-1)*24.1, 620);
-        _levers[i]->show();
+        _levers[i]->showSVG();
     }
 
     for(int i{28}; i < 39; ++i)
     {
         _levers[i] = new EWRB::HomeLever(_parent);
         _levers[i]->PlaceAt(25+(i-1)*24.1, 620);
-        _levers[i]->show();
+        _levers[i]->showSVG();
     }
-
 }
