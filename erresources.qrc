@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/svgs">
+        <file>svgs/Black_LeverBack.svg</file>
+        <file>svgs/Black_LeverForward.svg</file>
+        <file>svgs/Red_LeverBack.svg</file>
+        <file>svgs/Red_LeverForward.svg</file>
+        <file>svgs/Yellow_LeverBack.svg</file>
+        <file>svgs/Yellow_LeverForward.svg</file>
+        <file>svgs/EWRBFrame.svg</file>
+    </qresource>
+</RCC>
