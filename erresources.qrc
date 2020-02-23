@@ -13,6 +13,36 @@
         <file>svgs/AT2_Stop.svg</file>
         <file>svgs/PanelSigIndOff.svg</file>
         <file>svgs/PanelSigIndOn.svg</file>
+        <file>svgs/AT2_Clear_45.svg</file>
+        <file>svgs/AT2_Clear_90.svg</file>
+        <file>svgs/AT2_Clear_135.svg</file>
+        <file>svgs/AT2_Clear_180.svg</file>
+        <file>svgs/AT2_Clear_225.svg</file>
+        <file>svgs/AT2_Clear_270.svg</file>
+        <file>svgs/AT2_Clear_315.svg</file>
+        <file>svgs/AT2_Stop_45.svg</file>
+        <file>svgs/AT2_Stop_90.svg</file>
+        <file>svgs/AT2_Stop_135.svg</file>
+        <file>svgs/AT2_Stop_180.svg</file>
+        <file>svgs/AT2_Stop_225.svg</file>
+        <file>svgs/AT2_Stop_270.svg</file>
+        <file>svgs/AT2_Stop_315.svg</file>
+        <file>svgs/AT2_Stop_67_5.svg</file>
+        <file>svgs/AT2_Clear_67_5.svg</file>
+        <file>svgs/AT2_Clear_247_5.svg</file>
+        <file>svgs/AT2_Stop_247_5.svg</file>
+        <file>svgs/Disc_Clear_90.svg</file>
+        <file>svgs/Disc_Stop_90.svg</file>
+        <file>svgs/AT2EWEast_Clear_90.svg</file>
+        <file>svgs/AT2EWEast_JctLeft_90.svg</file>
+        <file>svgs/AT2EWEast_Stop_90.svg</file>
+        <file>svgs/AT2EWPraedJct_Stop_90.svg</file>
+        <file>svgs/AT2EWPraedJct_Clear_90.svg</file>
+        <file>svgs/AT2EWPraedJct_JctRight_90.svg</file>
+        <file>svgs/AT2EWWest_JctLeft_270.svg</file>
+        <file>svgs/AT2EWWest_JctRight_270.svg</file>
+        <file>svgs/AT2EWWest_Stop_270.svg</file>
+        <file>svgs/AT2EWWest_Clear_270.svg</file>
     </qresource>
     <qresource prefix="/audio">
         <file>audio/lever_move_1.wav</file>

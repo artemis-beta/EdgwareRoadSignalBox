@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="40mm"
+   width="60mm"
    height="40mm"
-   viewBox="0 0 40 40"
+   viewBox="0 0 60 40"
    version="1.1"
    id="svg7625"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="AT2_Stop.svg">
+   sodipodi:docname="AT2EWEast_Stop_90.svg">
   <defs
      id="defs7619" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="67.259572"
+     inkscape:cx="21.802708"
      inkscape:cy="65.752939"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -56,7 +56,7 @@
      transform="translate(0,-257)">
     <g
        id="g4704"
-       transform="matrix(0,1,1,0,-256.44339,256.44339)">
+       transform="matrix(-1,0,0,1,41.366685,-0.5291711)">
       <rect
          transform="matrix(0,1,1,0,0,0)"
          ry="9.5303984"
@@ -82,5 +82,19 @@
          id="path8176-3"
          style="fill:#727272;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
+    <path
+       sodipodi:nodetypes="cccsccscccc"
+       inkscape:connector-curvature="0"
+       id="path13201"
+       d="m 27.359046,267.14841 h 11.69837 l 5.16882,-5.29639 c 0,0 4.01556,-4.51523 8.844651,0.0661 1.90501,1.8073 1.757579,3.73724 1.757579,3.73724 v 12.51575 c 0,0 -1.011129,7.89024 -8.94858,7.89024 h -19.32403 l 8.26822,-6.52003 -1.37016,-8.17374 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       transform="rotate(45)"
+       y="152.21544"
+       x="221.23856"
+       height="15.049637"
+       width="2.9682677"
+       id="rect13267"
+       style="fill:#727272;fill-opacity:1;stroke:none;stroke-width:0.11021831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

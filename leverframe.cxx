@@ -48,6 +48,30 @@ void EWRB::LeverFrame::placeSigIndicators()
     }
 }
 
+void EWRB::LeverFrame::placeMapIndicators()
+{
+    _map_indicators[1]->PlaceAt(243, 159);
+    _map_indicators[2]->PlaceAt(302, 159);
+    _map_indicators[4]->PlaceAt(359, 154);
+    _map_indicators[5]->PlaceAt(548, 196);
+    _map_indicators[6]->PlaceAt(548, 160);
+    _map_indicators[7]->PlaceAt(548, 137);
+    _map_indicators[8]->PlaceAt(302, 201);
+    _map_indicators[10]->PlaceAt(542, 120);
+    _map_indicators[11]->PlaceAt(695, 161);
+    _map_indicators[28]->PlaceAt(413, 160);
+    _map_indicators[29]->PlaceAt(413, 196);
+    _map_indicators[30]->PlaceAt(413, 218);
+    _map_indicators[31]->PlaceAt(585, 205);
+    _map_indicators[32]->PlaceAt(645, 164);
+    _map_indicators[33]->PlaceAt(633, 196);
+    _map_indicators[36]->PlaceAt(685, 196);
+    _map_indicators[37]->PlaceAt(739, 196);
+    _map_indicators[38]->PlaceAt(754, 169);
+    _map_indicators[39]->PlaceAt(789, 238);
+    _map_indicators[40]->PlaceAt(791, 155);
+}
+
 void EWRB::LeverFrame::update()
 {
     for(auto pi : _indicators)
@@ -58,5 +82,10 @@ void EWRB::LeverFrame::update()
     for(auto si : _sig_indicators)
     {
         si->update();
+    }
+
+    for(auto mi : _map_indicators)
+    {
+        mi->update();
     }
 }

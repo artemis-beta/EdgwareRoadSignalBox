@@ -19,6 +19,7 @@ namespace EWRB
             QMap<int, EWRB::FrameLever*> _levers;
             QMap<int, EWRB::PointsIndicator*> _indicators;
             QMap<int, EWRB::SignalPanelIndicator*> _sig_indicators;
+            QMap<int, EWRB::SignalMapIndicator*> _map_indicators;
 
         public:
             LeverFrame(QWidget* parent);
@@ -32,7 +33,21 @@ namespace EWRB
             {
                 _sig_indicators[section->id()] = new SignalPanelIndicator(_parent, section);
             }
+            void addSignalMapIndicator(BlockSection* section, double angle=90)
+            {
+                _map_indicators[section->getBlockSignal()->id()] = new SignalMapIndicator(_parent, section, angle);
+            }
+            void addShuntMapIndicator(BlockSection* section, double angle=90)
+            {
+                _map_indicators[section->getBlockSignal()->id()] = new ShuntMapIndicator(_parent, section, angle);
+            }
+            void addCustomMapIndicator(SignalMapIndicator* indicator)
+            {
+                _map_indicators[indicator->getMirroredSignal()->id()] = indicator;
+            }
+
             void placeSigIndicators();
+            void placeMapIndicators();
     };
 };
 #endif // LEVERFRAME_HXX

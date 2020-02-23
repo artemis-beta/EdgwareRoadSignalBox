@@ -11,6 +11,7 @@
 
 #include "leverframe.hxx"
 #include "blocksection.hxx"
+#include "signalindicator.hxx"
 #include "signal.hxx"
 
 QT_BEGIN_NAMESPACE

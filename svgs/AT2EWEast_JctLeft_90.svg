@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="40mm"
+   width="60mm"
    height="40mm"
-   viewBox="0 0 40 40"
+   viewBox="0 0 60 40"
    version="1.1"
    id="svg7625"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="AT2_Stop.svg">
+   sodipodi:docname="AT2EWEast_JctLeft_90.svg">
   <defs
      id="defs7619" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="67.259572"
-     inkscape:cy="65.752939"
+     inkscape:zoom="5.6"
+     inkscape:cx="87.97308"
+     inkscape:cy="103.55347"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g13274"
      showgrid="false"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2560"
@@ -55,32 +55,44 @@
      id="layer1"
      transform="translate(0,-257)">
     <g
-       id="g4704"
-       transform="matrix(0,1,1,0,-256.44339,256.44339)">
+       id="g13274"
+       transform="rotate(90,29.498986,272.96304)">
       <rect
-         transform="matrix(0,1,1,0,0,0)"
+         transform="scale(1,-1)"
          ry="9.5303984"
          rx="9.5303984"
-         y="4.6835518"
-         x="267.8812"
+         y="-298.29517"
+         x="23.872875"
          height="31.99958"
          width="18.491083"
          id="rect7608"
          style="fill:#060606;fill-opacity:1;stroke:#000000;stroke-width:0.47327444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
-         transform="rotate(90)"
          r="5.2117558"
-         cy="-27.699181"
-         cx="277.12674"
+         cy="275.27954"
+         cx="33.11842"
          id="path8176"
-         style="fill:#ff4800;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#74fd44;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
-         transform="rotate(90)"
          r="5.2117558"
-         cy="-13.667503"
-         cx="277.12674"
+         cy="289.31122"
+         cx="33.11842"
          id="path8176-3"
          style="fill:#727272;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccsccscccc"
+         inkscape:connector-curvature="0"
+         id="path13201"
+         d="m 23.684346,275.10298 v -11.69837 l -5.296388,-5.16882 c 0,0 -4.515236,-4.01556 0.06615,-8.84465 1.807295,-1.90501 3.737231,-1.75758 3.737231,-1.75758 h 12.51575 c 0,0 7.89024,1.01113 7.89024,8.94858 v 19.32403 l -6.52008,-8.26822 -8.17374,1.37016 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <rect
+         transform="rotate(-45)"
+         y="193.93329"
+         x="-164.78949"
+         height="15.049637"
+         width="2.9682677"
+         id="rect13267"
+         style="fill:#ddfafa;fill-opacity:1;stroke:none;stroke-width:0.11021831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>

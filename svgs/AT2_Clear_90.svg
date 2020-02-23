@@ -15,7 +15,7 @@
    version="1.1"
    id="svg7625"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="AT2_Stop.svg">
+   sodipodi:docname="AT2_Clear_90.svg">
   <defs
      id="defs7619" />
   <sodipodi:namedview
@@ -55,30 +55,28 @@
      id="layer1"
      transform="translate(0,-257)">
     <g
-       id="g4704"
-       transform="matrix(0,1,1,0,-256.44339,256.44339)">
+       id="g8699"
+       transform="rotate(90,20.683348,277.12674)">
       <rect
-         transform="matrix(0,1,1,0,0,0)"
+         transform="scale(1,-1)"
          ry="9.5303984"
          rx="9.5303984"
-         y="4.6835518"
-         x="267.8812"
+         y="-293.12653"
+         x="11.437805"
          height="31.99958"
          width="18.491083"
          id="rect7608"
          style="fill:#060606;fill-opacity:1;stroke:#000000;stroke-width:0.47327444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
-         transform="rotate(90)"
          r="5.2117558"
-         cy="-27.699181"
-         cx="277.12674"
+         cy="270.1109"
+         cx="20.68335"
          id="path8176"
-         style="fill:#ff4800;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#74fd44;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
-         transform="rotate(90)"
          r="5.2117558"
-         cy="-13.667503"
-         cx="277.12674"
+         cy="284.14258"
+         cx="20.68335"
          id="path8176-3"
          style="fill:#727272;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>

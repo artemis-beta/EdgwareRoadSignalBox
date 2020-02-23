@@ -15,7 +15,7 @@
    version="1.1"
    id="svg7625"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="AT2_Stop.svg">
+   sodipodi:docname="AT2_Stop_90.svg">
   <defs
      id="defs7619" />
   <sodipodi:namedview
@@ -56,7 +56,7 @@
      transform="translate(0,-257)">
     <g
        id="g4704"
-       transform="matrix(0,1,1,0,-256.44339,256.44339)">
+       transform="matrix(-1,0,0,1,41.366685,-4.4307237e-6)">
       <rect
          transform="matrix(0,1,1,0,0,0)"
          ry="9.5303984"
