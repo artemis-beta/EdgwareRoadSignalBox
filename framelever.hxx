@@ -19,6 +19,7 @@ namespace EWRB
             QMap<LeverState, QSvgWidget*> _svgs = {{}};
             double _scale_factor = 1.;
             int _coords[2] = {0,0};
+            bool _locked = false;
             LeverState _current_state = LeverState::Off;
         public:
             FrameLever(const QString& lever_name, QWidget* parent, const double scale_fac=1) :
@@ -37,6 +38,8 @@ namespace EWRB
             void hideSVG();
             void showSVG();
             void moveLever();
+            void Lock(bool lock_lever) {_locked = lock_lever;}
+            bool isLocked() const {return _locked;}
             EWRB::LeverState getState() const {return _current_state;}
     };
 

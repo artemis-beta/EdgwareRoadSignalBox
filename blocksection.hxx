@@ -17,6 +17,7 @@ namespace EWRB
             const QList<Signal*> _counter_signals = {}; // Signals in opposing direction
             EWRB::TrackCircuit _track_circuit = EWRB::TrackCircuit::Clear;
         public:
+            BlockSection(){}
             BlockSection(const int id, const QString& desc) : _id(id), _description(desc) {}
             bool isOccupied() const {return _track_circuit == EWRB::TrackCircuit::Occupied;}
             void setRequiredState(EWRB::SignalState state) {_required_state = state;}

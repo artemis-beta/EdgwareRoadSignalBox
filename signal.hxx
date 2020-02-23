@@ -19,6 +19,12 @@ namespace EWRB
             EWRB::SignalState getState() const {return _current_state;};
             int id() const {return _id;}
     };
+
+    class ShuntSignal : public Signal
+    {
+        public:
+            ShuntSignal(const int& id) : Signal(id) {}
+    };
 };
 
 #endif // SIGNAL_HXX

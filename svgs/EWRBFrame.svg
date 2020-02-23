@@ -33,18 +33,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient3691">
-      <stop
-         style="stop-color:#9b9b9b;stop-opacity:1"
-         offset="0"
-         id="stop3687" />
-      <stop
-         style="stop-color:#272727;stop-opacity:0.84313726"
-         offset="1"
-         id="stop3689" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient2506">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
@@ -873,127 +861,6 @@
        gradientTransform="translate(247.65003)" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111171,0,0,0.91111445,-17.634708,48.617361)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,-11.151073,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,-4.801072,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-8"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,1.74938,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-0"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,7.8989282,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-05"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,14.382561,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-7"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,20.598924,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-4"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,26.948928,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-6"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,39.648926,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-6-8"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,45.998925,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-6-85"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,52.348923,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3952"
        id="radialGradient3693-8-7-6-85-5"
        cx="29.104166"
@@ -1278,127 +1145,6 @@
        r="1.7008928"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.82325902,0,0,0.82326148,150.13211,75.698232)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-7-2"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,192.04894,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-05-8"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,185.76575,48.684183)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-0-3"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,179.41576,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-8-8"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,173.13258,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-70"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,166.71576,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-8"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,160.36575,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-6"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,154.08258,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-8-8-0"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,198.53258,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-0-3-3"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,204.81576,48.617366)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-05-8-5"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,211.16575,48.684186)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3691"
-       id="radialGradient3693-8-7-7-2-7"
-       cx="29.104166"
-       cy="222.53868"
-       fx="29.104166"
-       fy="222.53868"
-       r="1.7008928"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.91111172,0,0,0.91111445,217.44894,48.617366)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1408,8 +1154,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="495.23191"
-     inkscape:cy="584.59953"
+     inkscape:cx="621.66048"
+     inkscape:cy="149.95667"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1428,7 +1174,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2197,12 +1943,6 @@
        x="253.55588"
        y="-266.68628"
        transform="scale(1,-1)" />
-    <circle
-       style="fill:url(#radialGradient3693);fill-opacity:1;stroke:#000000;stroke-width:0.32388893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685"
-       cx="8.8824387"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2214,12 +1954,6 @@
          x="8.2131653"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">1</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4"
-       cx="15.366073"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2231,12 +1965,6 @@
          x="14.696798"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">2</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5"
-       cx="21.716078"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2248,12 +1976,6 @@
          x="20.846348"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">3</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-8);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-5"
-       cx="28.266529"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2265,12 +1987,6 @@
          x="27.329979"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">4</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-0);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-2"
-       cx="34.41608"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2282,12 +1998,6 @@
          x="33.746803"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">5</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-05);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-6"
-       cx="40.899712"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2299,12 +2009,6 @@
          x="40.096798"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">6</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-7);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-3"
-       cx="47.11607"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2316,12 +2020,6 @@
          x="46.446796"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">7</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-4);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-58"
-       cx="53.466076"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2344,12 +2042,6 @@
          x="59.013165"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">9</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-6);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-9"
-       cx="66.166069"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2361,12 +2053,6 @@
          x="64.761795"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">10</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-6-8);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-9-1"
-       cx="72.516068"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2378,12 +2064,6 @@
          x="71.379066"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">11</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-6-85);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-9-3"
-       cx="78.866058"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2704,7 +2384,7 @@
          id="tspan4513"
          x="91.205727"
          y="264.2688"
-         style="stroke-width:0.26458332px"></tspan></text>
+         style="stroke-width:0.26458332px" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2737,13 +2417,7 @@
          id="tspan4553"
          x="135.57248"
          y="264.73651"
-         style="stroke-width:0.26458332px"></tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-6);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-3"
-       cx="180.59973"
-       cy="251.37549"
-       r="2.0788693" />
+         style="stroke-width:0.26458332px" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2755,12 +2429,6 @@
          x="178.99501"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">28</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-8);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-6"
-       cx="186.8829"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2772,12 +2440,6 @@
          x="185.35039"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">29</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-70);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-4"
-       cx="193.23291"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2789,12 +2451,6 @@
          x="191.63356"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">30</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-8-8);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-5-6"
-       cx="199.64973"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2806,12 +2462,6 @@
          x="198.38448"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">31</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-0-3);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-2-0"
-       cx="205.93292"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2823,12 +2473,6 @@
          x="204.40039"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">32</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-05-8);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-6-1"
-       cx="212.28291"
-       cy="251.44231"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2840,12 +2484,6 @@
          x="210.68356"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">33</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-7-2);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-3-2"
-       cx="218.56609"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2857,12 +2495,6 @@
          x="217.03357"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">34</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-8-8-0);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-5-6-5"
-       cx="225.04973"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2874,12 +2506,6 @@
          x="223.45038"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">35</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-0-3-3);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-2-0-6"
-       cx="231.33292"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2891,12 +2517,6 @@
          x="229.80038"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">36</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-05-8-5);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-6-1-2"
-       cx="237.68291"
-       cy="251.44231"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2908,12 +2528,6 @@
          x="236.15038"
          y="256.05164"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">37</tspan></text>
-    <circle
-       style="fill:url(#radialGradient3693-8-7-7-2-7);fill-opacity:1;stroke:#000000;stroke-width:0.32388896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3685-4-5-3-2-6"
-       cx="243.96608"
-       cy="251.37549"
-       r="2.0788693" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

@@ -28,6 +28,7 @@ public:
 private:
     Ui::ERMainWindow *ui;
     QList<QSoundEffect*> _lever_sounds;
+    QSoundEffect* _lever_failed = new QSoundEffect;
     EWRB::LeverFrame* _lever_frame = new EWRB::LeverFrame(this);
     QMap<int, QPushButton*> _lever_frame_buttons;
     QMap<int, EWRB::BlockSection*> _block_sections;

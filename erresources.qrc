@@ -23,5 +23,6 @@
         <file>audio/lever_move_6.wav</file>
         <file>audio/lever_move_7.wav</file>
         <file>audio/lever_move_8.wav</file>
+        <file>audio/lever_fail.wav</file>
     </qresource>
 </RCC>

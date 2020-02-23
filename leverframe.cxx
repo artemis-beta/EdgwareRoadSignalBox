@@ -20,7 +20,7 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
         _levers[i] = new EWRB::PointsLever(_parent);
         if(i != 16 && i != 18)
         {   _indicators[i] = new EWRB::PointsIndicator((EWRB::PointsLever*)_levers[i], _parent);
-            _indicators[i]->PlaceAt(26+(i-1)*24.1, 580);
+            _indicators[i]->PlaceAt(291+(i-12)*24.05, 580);
         }
         _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
         _levers[i]->showSVG();
@@ -34,10 +34,29 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
     }
 }
 
+void EWRB::LeverFrame::placeSigIndicators()
+{
+    for(int i{1}; i < 13; ++i)
+    {
+        if(i == 9) continue;
+        _sig_indicators[i]->PlaceAt(24+(i-1)*24,577);
+    }
+
+    for(int i{28}; i < 39; ++i)
+    {
+        _sig_indicators[i]->PlaceAt(24+(i-1)*24,577);
+    }
+}
+
 void EWRB::LeverFrame::update()
 {
     for(auto pi : _indicators)
     {
         pi->update();
+    }
+
+    for(auto si : _sig_indicators)
+    {
+        si->update();
     }
 }

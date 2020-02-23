@@ -23,7 +23,6 @@ SOURCES += \
     ermainwindow.cxx \
     pointsindicator.cxx \
     signal.cxx \
-    SignalPanelIndicator.cxx \
     signalindicator.cxx
 
 HEADERS += \
@@ -34,7 +33,6 @@ HEADERS += \
     leverframe.hxx \
     pointsindicator.hxx \
     signal.hxx \
-    SignalPanelIndicator.hxx \
     signalindicator.hxx
 
 FORMS += \
