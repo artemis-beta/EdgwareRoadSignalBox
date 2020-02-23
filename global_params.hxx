@@ -1,8 +1,18 @@
 #ifndef GLOBAL_PARAMS_HXX
 #define GLOBAL_PARAMS_HXX
 
+#include <QMap>
+
 namespace EWRB
 {
+    enum class SignalState
+    {
+        Off,
+        On,
+        OffJctLeft,
+        OffJctRight
+    };
+
     enum class LeverState
     {
         Off,
@@ -13,6 +23,12 @@ namespace EWRB
     {
         Normal,
         Reverse
+    };
+
+    enum class TrackCircuit
+    {
+        Clear,
+        Occupied
     };
 };
 

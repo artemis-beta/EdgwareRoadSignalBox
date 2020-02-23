@@ -16,18 +16,26 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    blocksection.cxx \
     framelever.cxx \
     leverframe.cxx \
     main.cpp \
     ermainwindow.cxx \
-    pointsindicator.cxx
+    pointsindicator.cxx \
+    signal.cxx \
+    SignalPanelIndicator.cxx \
+    signalindicator.cxx
 
 HEADERS += \
+    blocksection.hxx \
     ermainwindow.hxx \
     framelever.hxx \
     global_params.hxx \
     leverframe.hxx \
-    pointsindicator.hxx
+    pointsindicator.hxx \
+    signal.hxx \
+    SignalPanelIndicator.hxx \
+    signalindicator.hxx
 
 FORMS += \
     ermainwindow.ui

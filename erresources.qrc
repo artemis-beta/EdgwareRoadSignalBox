@@ -9,6 +9,10 @@
         <file>svgs/EWRBFrame.svg</file>
         <file>svgs/PointIndicatorNorm.svg</file>
         <file>svgs/PointIndicatorReverse.svg</file>
+        <file>svgs/AT2_Clear.svg</file>
+        <file>svgs/AT2_Stop.svg</file>
+        <file>svgs/PanelSigIndOff.svg</file>
+        <file>svgs/PanelSigIndOn.svg</file>
     </qresource>
     <qresource prefix="/audio">
         <file>audio/lever_move_1.wav</file>

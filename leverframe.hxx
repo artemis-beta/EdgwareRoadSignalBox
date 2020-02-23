@@ -7,6 +7,7 @@
 
 #include "framelever.hxx"
 #include "pointsindicator.hxx"
+#include "SignalIndicator.hxx"
 
 namespace EWRB
 {
@@ -17,6 +18,7 @@ namespace EWRB
             QSvgWidget* _frame_svg = nullptr;
             QMap<int, EWRB::FrameLever*> _levers;
             QMap<int, EWRB::PointsIndicator*> _indicators;
+            QMap<int, EWRB::SignalPanelIndicator*> _sig_indicators;
         public:
             LeverFrame(QWidget* parent);
             EWRB::FrameLever* operator[](const int& i)
@@ -25,6 +27,10 @@ namespace EWRB
             }
             QList<int> levers() const {return _levers.keys();}
             void update();
+            void addSignalPanelIndicator(BlockSection* section)
+            {
+                _sig_indicators[section->id()] = new SignalPanelIndicator(_parent, section);
+            }
     };
 };
 #endif // LEVERFRAME_HXX

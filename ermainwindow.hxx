@@ -10,6 +10,8 @@
 #include <algorithm>
 
 #include "leverframe.hxx"
+#include "blocksection.hxx"
+#include "signal.hxx"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ERMainWindow; }
@@ -28,7 +30,11 @@ private:
     QList<QSoundEffect*> _lever_sounds;
     EWRB::LeverFrame* _lever_frame = new EWRB::LeverFrame(this);
     QMap<int, QPushButton*> _lever_frame_buttons;
+    QMap<int, EWRB::BlockSection*> _block_sections;
+    QMap<int, EWRB::Signal*> _signals;
     void _play_random_lever_sound();
+    void _setup_block_sections();
+    void _add_signals();
 public slots:
     void _lever_action(const int& i);
 };
