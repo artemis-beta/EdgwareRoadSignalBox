@@ -15,7 +15,7 @@
    version="1.1"
    id="svg7625"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="AT2EWWest_JctLeft_270.svg">
+   sodipodi:docname="AT2EWWest_JctRight_270.svg">
   <defs
      id="defs7619" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="-69.11102"
+     inkscape:cx="-23.654156"
      inkscape:cy="65.752939"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -55,7 +55,7 @@
      id="layer1"
      transform="translate(0,-257)">
     <g
-       id="g17635"
+       id="g17052"
        transform="matrix(-1,0,0,1,59.278029,0)">
       <rect
          transform="matrix(0,-1,-1,0,0,0)"
@@ -94,7 +94,7 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccsccscccc" />
       <rect
-         style="fill:#727272;fill-opacity:1;stroke:none;stroke-width:0.11021831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#ddfafa;fill-opacity:1;stroke:none;stroke-width:0.11021831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect13267"
          width="2.9682677"
          height="15.049637"
@@ -102,7 +102,7 @@
          y="-240.56081"
          transform="matrix(0.70710678,-0.70710678,-0.70710678,-0.70710678,0,0)" />
       <rect
-         style="fill:#ddfafa;fill-opacity:1;stroke:none;stroke-width:0.11021831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#727272;fill-opacity:1;stroke:none;stroke-width:0.11021831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect13267-5"
          width="2.9682677"
          height="15.049637"

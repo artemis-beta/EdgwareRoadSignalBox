@@ -42,8 +42,9 @@ void EWRB::InterLocking::_create_logic_table()
                   {{21, EWRB::LeverState::On},
                   {22, EWRB::LeverState::Off},
                   {6, EWRB::LeverState::Off},
+                  {10, EWRB::LeverState::Off},
                   {7, EWRB::LeverState::Off},      // Lever 5 released only if points 21 set to reverse, 22 set to normal,
-                  {32, EWRB::LeverState::Off}}},   // SIG. 32 SIG. 7 & SIG. 6 set to ON
+                  {32, EWRB::LeverState::Off}}},   // SIG. 32 SIG. 7, SIG. 10 & SIG. 6 set to ON
                  {EWRB::LeverState::Off, {}}       // No condition to return lever to OFF
                 };
 
@@ -52,8 +53,9 @@ void EWRB::InterLocking::_create_logic_table()
                   {{20, EWRB::LeverState::Off},
                      {21, EWRB::LeverState::Off},
                      {22, EWRB::LeverState::Off},  // Lever 6 released only if points 20, 21 & 22 set to normal,
-                     {5, EWRB::LeverState::Off},   // SIG. 32 SIG. 7 & SIG. 5 set to ON
+                     {5, EWRB::LeverState::Off},   // SIG. 32 SIG. 7, SIG. 10 & SIG. 5 set to ON
                      {7, EWRB::LeverState::Off},
+                     {10, EWRB::LeverState::Off},
                      {32, EWRB::LeverState::Off}}},
                  {EWRB::LeverState::Off, {}}
                 };
@@ -62,10 +64,230 @@ void EWRB::InterLocking::_create_logic_table()
                   {{19, EWRB::LeverState::On},
                   {22, EWRB::LeverState::On},
                   {6, EWRB::LeverState::Off},
+                  {10, EWRB::LeverState::Off},
                   {5, EWRB::LeverState::Off},      // Lever 7 released only if points 22 & 19 set to reverse
-                  {32, EWRB::LeverState::Off}}},   // SIG. 32 SIG. 5 & SIG. 6 set to ON
+                  {32, EWRB::LeverState::Off}}},   // SIG. 32 SIG. 5, SIG. 10 & SIG. 6 set to ON
                  {EWRB::LeverState::Off, {}}       // No condition to return lever to OFF
                 };
+
+    _logic[8] = {};                                // Lever 8 requires no conditions as all point settings are valid routes
+
+    _logic[9] = {};                                // Lever 9 is disused so has no conditions
+
+    _logic[10] = {{EWRB::LeverState::On,
+                   {{17, EWRB::LeverState::On},
+                    {19, EWRB::LeverState::Off},
+                    {22, EWRB::LeverState::On},
+                    {5, EWRB::LeverState::Off},
+                    {32, EWRB::LeverState::Off},
+                   {7, EWRB::LeverState::Off},     // Lever 10 release only if points 17 & 22 set to reverse, points 19 set to normal
+                   {6, EWRB::LeverState::Off}}},   // SIG. 6, SIG. 7, SIG. 5 & SIG. 32 set to ON
+                  {EWRB::LeverState::Off, {}}      // No condition to return lever to OFF
+                 };
+
+    _logic[11] = {{EWRB::LeverState::On,
+                   {{26, EWRB::LeverState::Off}}},  // Lever 11 release only if points 26 set to normal
+                  {EWRB::LeverState::Off, {}}       // No condition to return lever to OFF
+                 };
+
+    _logic[12] = {{EWRB::LeverState::On,
+                   {{26, EWRB::LeverState::On},
+                    {38, EWRB::LeverState::Off}}},  // Lever 11 release only if points 26 set to normal, SIG. 38 set to ON
+                  {EWRB::LeverState::Off, {}}       // No condition to return lever to OFF
+                 };
+
+    _logic[13] = {{EWRB::LeverState::On,            // Points 13 can only be changed when SIG. 2, SIG. 28 are ON
+                   {{2, EWRB::LeverState::Off},
+                    {3, EWRB::LeverState::Off},
+                    {28, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                   {{2, EWRB::LeverState::Off},
+                    {3, EWRB::LeverState::Off},
+                    {28, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[14] = {{EWRB::LeverState::On,            // Points 14 can only be changed when SIG. 8, SIG. 29 & SIG. 30 are ON
+                   {{8, EWRB::LeverState::Off},
+                   {29, EWRB::LeverState::Off},
+                   {30, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                    {{8, EWRB::LeverState::Off},
+                    {29, EWRB::LeverState::Off},
+                    {30, EWRB::LeverState::Off}}}
+                  };
+
+    _logic[15] = {{EWRB::LeverState::On,            // Points 15 can only be changed when SIG. 28 & SIG. 29 are ON
+                   {{28, EWRB::LeverState::Off},
+                    {29, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::On,
+                   {{28, EWRB::LeverState::Off},
+                    {29, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[16] = {};                                // Lever 16 is a spare
+
+    _logic[17] = {{EWRB::LeverState::On,            // Points 17 can only be changed when SIG. 10 is ON
+                   {{10, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                   {{10, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[18] = {};                                // Lever 18 is a spare
+
+    _logic[19] = {{EWRB::LeverState::On,            // Points 19 can only be changed when SIG. 7 & SIG. 10 are ON
+                   {{7, EWRB::LeverState::Off},
+                   {10, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                       {{7, EWRB::LeverState::Off},
+                       {10, EWRB::LeverState::Off}}}
+                   };
+
+    _logic[20] = {{EWRB::LeverState::On,           // Points 20 can only be changed when SIG. 6, SIG. 5, SIG. 7 are ON
+                   {{6, EWRB::LeverState::Off},    // and SIG. 33 is set to ON or left branch
+                    {5, EWRB::LeverState::Off},
+                    {7, EWRB::LeverState::Off},
+                    {34, EWRB::LeverState::Off},
+                    {35, EWRB::LeverState::Off},
+                    {32, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                   {{6, EWRB::LeverState::Off},
+                   {5, EWRB::LeverState::Off},
+                    {7, EWRB::LeverState::Off},
+                   {34, EWRB::LeverState::Off},
+                   {35, EWRB::LeverState::Off},
+                   {32, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[21] = {{EWRB::LeverState::On,           // Points 21 can only be changed when SIG. 6, SIG. 5, SIG. 7 are ON
+                   {{6, EWRB::LeverState::Off},    // and SIG. 33 is set to ON or left branch
+                    {5, EWRB::LeverState::Off},
+                    {7, EWRB::LeverState::Off},
+                    {34, EWRB::LeverState::Off},
+                    {35, EWRB::LeverState::Off},
+                    {32, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                   {{6, EWRB::LeverState::Off},
+                   {5, EWRB::LeverState::Off},
+                    {7, EWRB::LeverState::Off},
+                   {34, EWRB::LeverState::Off},
+                   {35, EWRB::LeverState::Off},
+                   {32, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[22] = {{EWRB::LeverState::On,           // Points 22 can only be changed when SIG. 6, SIG. 5, SIG. 7 are ON
+                   {{6, EWRB::LeverState::Off},
+                    {5, EWRB::LeverState::Off},
+                    {7, EWRB::LeverState::Off},
+                    {32, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                   {{6, EWRB::LeverState::Off},
+                   {5, EWRB::LeverState::Off},
+                    {7, EWRB::LeverState::Off},
+                   {32, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[23] = {{EWRB::LeverState::On,           // Points 23 can only be changed when SIG. 6, SIG. 5, SIG. 33 are ON
+                   {{6, EWRB::LeverState::Off},
+                    {35, EWRB::LeverState::Off},
+                    {34, EWRB::LeverState::Off},
+                    {35, EWRB::LeverState::Off},
+                    {32, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                   {{6, EWRB::LeverState::Off},
+                    {35, EWRB::LeverState::Off},
+                   {34, EWRB::LeverState::Off},
+                   {35, EWRB::LeverState::Off},
+                   {32, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[24] = {};                                //TODO EMERGENCY LEVER 1, LEVER 2
+    _logic[25] = {};
+
+    _logic[26] = {{EWRB::LeverState::On,            // Points 26 can only be changed when SIG. 11 and SIG. 38 are ON
+                   {{11, EWRB::LeverState::Off},     // Points 26 reverse requires points 27 to be reverse
+                    {12, EWRB::LeverState::Off},
+                    {27, EWRB::LeverState::On},
+                    {38, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                     {{11, EWRB::LeverState::Off},
+                      {12, EWRB::LeverState::Off},
+                      {38, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[27] = {{EWRB::LeverState::On,            // Points 27 can only be changed when SIG. 37 and SIG. 38 are ON
+                   {{37, EWRB::LeverState::Off},
+                    {38, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off,
+                     {{37, EWRB::LeverState::Off},
+                      {26, EWRB::LeverState::Off},  // Points 27 normal requires Points 26 to be normal
+                      {38, EWRB::LeverState::Off}}}
+                 };
+
+    _logic[28] = {{EWRB::LeverState::On,            // Lever 28 can only be changed if points 15 set to reverse and 14 to normal
+                   {{15, EWRB::LeverState::On},
+                    {8, EWRB::LeverState::Off},     // Shunt SIG. 8 to be ON
+                    {14, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off, {}}
+                 };
+
+    _logic[29] = {{EWRB::LeverState::On,            // Lever 28 can only be changed if points 15 set to normal and 14 to normal
+                   {{15, EWRB::LeverState::Off},    // Shunt SIG. 8 to be ON
+                    {8, EWRB::LeverState::Off},
+                    {14, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off, {}}
+                 };
+
+    _logic[30] = {{EWRB::LeverState::On,            // Lever 28 can only be changed if points 14 are set to reverse
+                    {{8, EWRB::LeverState::Off},     // Shunt SIG. 8 to be ON
+                    {14, EWRB::LeverState::On}}},
+                  {EWRB::LeverState::Off, {}}
+                 };
+
+    _logic[31] = {};                                 // Lever 31 has no conditions
+
+    _logic[32] = {{EWRB::LeverState::On,            // Lever 32 can only be changed if SIG. 10, SIG. 7, SIG. 6, SIG.5 are ON
+                {{10, EWRB::LeverState::Off},       // and points 20 are set to normal
+                 {20, EWRB::LeverState::Off},
+                {7, EWRB::LeverState::Off},
+                {6, EWRB::LeverState::Off},
+                {5, EWRB::LeverState::Off}}}, {EWRB::LeverState::Off, {}}};
+
+    _logic[33] = {{EWRB::LeverState::On,            // Lever 33 can only be changed if points 23 are reversed
+                   {{23, EWRB::LeverState::On},     // and other aspect levers are off
+                    {34, EWRB::LeverState::Off},
+                    {35, EWRB::LeverState::Off}}},
+                    {EWRB::LeverState::Off, {}}
+                 };
+
+    _logic[34] = {{EWRB::LeverState::On,            // Lever 34 can only be changed if points 23, 20 are normal
+                   {{23, EWRB::LeverState::Off},    // and other aspect levers are off
+                    {20, EWRB::LeverState::Off},
+                    {21, EWRB::LeverState::Off},
+                    {33, EWRB::LeverState::Off},
+                    {35, EWRB::LeverState::Off}}},
+                    {EWRB::LeverState::Off, {}}
+                 };
+
+    _logic[35] = {{EWRB::LeverState::On,            // Lever 34 can only be changed if points 23 are normal, 20 are reversed
+                   {{23, EWRB::LeverState::Off},    // and other aspect levers are off
+                    {20, EWRB::LeverState::On},
+                    {33, EWRB::LeverState::Off},
+                    {34, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off, {}}
+               };
+
+    _logic[36] = {};                                // Lever 36 has no conditions
+
+    _logic[37] = {{EWRB::LeverState::On,            // Lever 37 can only be changed if points 27 are reversed, SIG. 38 is ON
+                   {{27, EWRB::LeverState::On},
+                    {38, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off, {}}};
+
+    _logic[38] = {{EWRB::LeverState::On,            // Lever 37 can only be changed if points 26, 27 are normal, SIG. 37 is ON
+                   {{27, EWRB::LeverState::Off},
+                    {26, EWRB::LeverState::Off},
+                    {37, EWRB::LeverState::Off}}},
+                  {EWRB::LeverState::Off, {}}};
 
 }
 
@@ -81,7 +303,7 @@ void EWRB::InterLocking::update(const int& i)
     {
         bool toLock = _lever_frame->operator[](lever)->getState() != _coords[lever];
 
-        if(toLock) qDebug() << "Lever "<< i << " Locked!";
+        if(toLock) qDebug() << "Lever "<< i << " Locked by Lever " << lever << " !";
         _lever_frame->operator[](i)->Lock(toLock);
         if(toLock) return;
     }

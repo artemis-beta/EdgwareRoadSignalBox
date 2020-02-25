@@ -41,6 +41,5 @@ void EWRB::SignalMapIndicator::update()
     }
 
     // State is not important here we just use it to retrieve the signal
-    qDebug() << "SVG Fetch: Signal set to "<< int(_entry_blocks[EWRB::SignalState::Off]->getBlockSignal()->getState());
     _svgs[_entry_blocks[EWRB::SignalState::Off]->getBlockSignal()->getState()]->show();
 }
