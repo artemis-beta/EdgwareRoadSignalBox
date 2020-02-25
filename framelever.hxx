@@ -17,13 +17,14 @@ namespace EWRB
         private:
             QWidget* _parent = nullptr;
             QMap<LeverState, QSvgWidget*> _svgs = {{}};
-            double _scale_factor = 1.;
+            EWRB::LeverType _type;
             int _coords[2] = {0,0};
             bool _locked = false;
             LeverState _current_state = LeverState::Off;
         public:
-            FrameLever(const QString& lever_name, QWidget* parent, const double scale_fac=1) :
-                _scale_factor(scale_fac), _parent(parent)
+            FrameLever(){}
+            FrameLever(const QString& lever_name, QWidget* parent, EWRB::LeverType type) :
+                _parent(parent), _type(type)
             {
                 _svgs[LeverState::Off] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverBack.svg"), _parent);
                 _svgs[LeverState::Off]->setFixedSize(25, 100);
@@ -33,26 +34,38 @@ namespace EWRB
                 _svgs[LeverState::On]->hide();
             }
             QSvgWidget* getWidget() const {return _svgs[_current_state];}
-            void Scale(double& scale_factor){_scale_factor *= scale_factor;}
             void PlaceAt(const int& x, const int& y);
             void hideSVG();
             void showSVG();
             void moveLever();
             void Lock(bool lock_lever) {_locked = lock_lever;}
             bool isLocked() const {return _locked;}
+            EWRB::LeverType getType() const {return _type;}
             EWRB::LeverState getState() const {return _current_state;}
     };
 
     class HomeLever : public FrameLever
     {
         public:
-            HomeLever(QWidget* parent) : FrameLever(QString("Red"), parent) {}
+            HomeLever(QWidget* parent) : FrameLever(QString("Red"), parent, EWRB::LeverType::Signal) {}
     };
 
     class PointsLever : public FrameLever
     {
         public:
-            PointsLever(QWidget* parent) : FrameLever(QString("Black"), parent) {}
+            PointsLever(QWidget* parent) : FrameLever(QString("Black"), parent, EWRB::LeverType::Points){}
+    };
+
+    class EmergencySignalReleaseLever : public FrameLever
+    {
+        public:
+            EmergencySignalReleaseLever(QWidget* parent) : FrameLever(QString("Yellow"), parent, EWRB::LeverType::Points){}
+    };
+
+    class SpareLever : public FrameLever
+    {
+        public:
+            SpareLever(QWidget* parent) : FrameLever(QString("White"), parent, EWRB::LeverType::Points){}
     };
 };
 

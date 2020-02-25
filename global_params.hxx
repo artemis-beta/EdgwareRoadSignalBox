@@ -30,6 +30,13 @@ namespace EWRB
         Clear,
         Occupied
     };
+
+    enum class LeverType
+    {
+        Signal,
+        Points
+    };
+
 };
 
 #endif // GLOBAL_PARAMS_HXX

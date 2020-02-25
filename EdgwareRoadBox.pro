@@ -18,9 +18,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     blocksection.cxx \
     framelever.cxx \
+    interlocking.cxx \
     leverframe.cxx \
     main.cpp \
     ermainwindow.cxx \
+    points.cpp \
     pointsindicator.cxx \
     signal.cxx \
     signalindicator.cxx
@@ -30,7 +32,9 @@ HEADERS += \
     ermainwindow.hxx \
     framelever.hxx \
     global_params.hxx \
+    interlocking.hxx \
     leverframe.hxx \
+    points.hxx \
     pointsindicator.hxx \
     signal.hxx \
     signalindicator.hxx

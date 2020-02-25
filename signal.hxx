@@ -14,6 +14,7 @@ namespace EWRB
             const int _id = -1;
             EWRB::SignalState _current_state = EWRB::SignalState::On;
         public:
+            Signal() {}
             Signal(const int& id) : _id(id) {};
             void setBlock(BlockSection* block) {_block = block;}
             EWRB::SignalState getState() const {return _current_state;};

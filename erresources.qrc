@@ -43,6 +43,8 @@
         <file>svgs/AT2EWWest_JctRight_270.svg</file>
         <file>svgs/AT2EWWest_Stop_270.svg</file>
         <file>svgs/AT2EWWest_Clear_270.svg</file>
+        <file>svgs/White_LeverBack.svg</file>
+        <file>svgs/White_LeverForward.svg</file>
     </qresource>
     <qresource prefix="/audio">
         <file>audio/lever_move_1.wav</file>
