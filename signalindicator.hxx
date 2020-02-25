@@ -103,18 +103,18 @@ namespace EWRB
     {
         private:
             QWidget* _parent = nullptr;
-            QMap<EWRB::TrackCircuit, QSvgWidget*> _svgs;
+            QMap<bool, QSvgWidget*> _svgs;
             BlockSection* _entry_block = nullptr;
             int _location[2] = {0, 0};
         public:
             SignalPanelIndicator(QWidget* parent, BlockSection* valid_block) :
                 _parent(parent), _entry_block(valid_block)
             {
-                _svgs[EWRB::TrackCircuit::Clear] = new QSvgWidget(QString(":/svgs/svgs/PanelSigIndOff.svg"), _parent);
-                _svgs[EWRB::TrackCircuit::Clear]->setFixedSize(20,20);
-                _svgs[EWRB::TrackCircuit::Occupied] = new QSvgWidget(QString(":/svgs/svgs/PanelSigIndOn.svg"), _parent);
-                _svgs[EWRB::TrackCircuit::Occupied]->setFixedSize(20,20);
-                _svgs[EWRB::TrackCircuit::Occupied]->hide();
+                _svgs[false] = new QSvgWidget(QString(":/svgs/svgs/PanelSigIndOff.svg"), _parent);
+                _svgs[false]->setFixedSize(20,20);
+                _svgs[true] = new QSvgWidget(QString(":/svgs/svgs/PanelSigIndOn.svg"), _parent);
+                _svgs[true]->setFixedSize(20,20);
+                _svgs[true]->hide();
             }
             void PlaceAt(const int& x, const int& y);
             void update();

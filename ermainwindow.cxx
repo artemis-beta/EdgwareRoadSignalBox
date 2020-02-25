@@ -43,6 +43,8 @@ ERMainWindow::ERMainWindow(QWidget *parent)
         _lever_sounds[i-1]->setSource(QUrl::fromLocalFile(":/audio/audio/lever_move_"+QString::number(i)+".wav"));
     }
 
+    _lever_frame->update();
+
 }
 
 void ERMainWindow::_play_random_lever_sound()

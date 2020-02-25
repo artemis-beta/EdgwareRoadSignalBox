@@ -19,7 +19,7 @@ void EWRB::SignalPanelIndicator::update()
         svg->hide();
     }
 
-    _svgs[_entry_block->getState()]->show();
+    _svgs[_entry_block->getBlockSignal()->getState() == EWRB::SignalState::On]->show();
 }
 
 void EWRB::SignalMapIndicator::PlaceAt(const int &x, const int &y)
