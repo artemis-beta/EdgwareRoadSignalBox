@@ -6,6 +6,7 @@
 
 #include <QMap>
 #include <QSvgWidget>
+#include <QDebug>
 
 namespace EWRB
 {

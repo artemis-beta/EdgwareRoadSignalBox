@@ -109,6 +109,33 @@ void EWRB::InterLocking::update(const int& i)
         }
     }
 
+
+
+}
+
+void EWRB::InterLocking::_perform_action(const int& i)
+{
+    if(_signal_lever_connections.contains(i))
+    {
+        lever_active_signal_state state = _signal_lever_connections[i].second;
+
+        // If attempting lever on and the block is occupied then do not release signal
+        if(reverse(_lever_frame->operator[](i)->getState()) != EWRB::LeverState::Off && state.first->protectedBlockOccupied())
+        {
+            qDebug() << "Could not release signal " << state.first->id() << ", Block Occupied";
+            return;
+        }
+        else if(reverse(_lever_frame->operator[](i)->getState()) == EWRB::LeverState::On)
+        {
+            qDebug() << "Setting Signal " << state.first->id() << " to On";
+            state.first->setOn(true);
+        }
+        else
+        {
+            qDebug() << "Clearing Signal " << state.first->id() << " to Off: Aspect " << int(state.first->getState());
+            state.first->tryClear(state.second);
+        }
+    }
 }
 
 bool EWRB::InterLocking::Query(const int& id)
@@ -121,6 +148,10 @@ bool EWRB::InterLocking::Query(const int& id)
     {
         _lever_frame->operator[](id)->moveLever();
     }
+
+    _perform_action(id);
+
+    return true;
 }
 
 void EWRB::InterLocking::_connect(const int& id, EWRB::HomeLever* lever, EWRB::Signal* signal, EWRB::SignalState aspect)

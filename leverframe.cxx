@@ -82,6 +82,8 @@ void EWRB::LeverFrame::placeMapIndicators()
 
 void EWRB::LeverFrame::update()
 {
+    qDebug() << "Running Frame Update...";
+
     for(auto pi : _indicators)
     {
         pi->update();

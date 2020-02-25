@@ -15,7 +15,8 @@ namespace EWRB
     typedef QMap<EWRB::LeverState, interlock_coordinate> lever_logic;
     typedef QMap<int, lever_logic> interlock_logic;
     typedef QMap<int, QPair<EWRB::FrameLever*, EWRB::Points*>> points_connection;
-    typedef QMap<int, QPair<EWRB::FrameLever*, QPair<EWRB::Signal*, EWRB::SignalState>>> signal_connection;
+    typedef QPair<EWRB::Signal*, EWRB::SignalState> lever_active_signal_state;
+    typedef QMap<int, QPair<EWRB::FrameLever*, lever_active_signal_state>> signal_connection;
 
     class InterLocking
     {
@@ -38,6 +39,7 @@ namespace EWRB
             void _add_points();
             void _add_signals();
             void _connect_levers();
+            void _perform_action(const int& i);
             void _connect(const int& id, HomeLever* lever, Signal* signal, EWRB::SignalState aspect = EWRB::SignalState::Off);
             void _connect(const int& id, PointsLever* lever, Points* points);
 

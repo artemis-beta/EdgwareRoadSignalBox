@@ -33,6 +33,7 @@ namespace EWRB
             Signal* getBlockSignal() const {return _block_signal;}
             QList<Points*> getPoints() const {return _points_set;}
             int id() const {return _id;}
+            void update();
 
     };
 };

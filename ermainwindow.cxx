@@ -109,6 +109,7 @@ void ERMainWindow::_lever_action(const int &i)
 
     if(!_interlocking->Query(i))
     {
+        qDebug() << "Invalid Move";
         _lever_failed->play();
         return;
     }
