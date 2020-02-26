@@ -305,7 +305,7 @@ void EWRB::InterLocking::update(const int& i)
 
     for(auto lever : _coords.keys())
     {
-        bool toLock = _lever_frame->operator[](lever)->getState() != _coords[lever];
+        bool toLock = _lever_frame->operator[](lever)->getState() != _coords[lever] && _lever_frame->operator[](lever)->getState() != EWRB::LeverState::Mid;
 
         if(toLock) qDebug() << "Lever "<< i << " Locked by Lever " << lever << " !";
         _lever_frame->operator[](i)->Lock(toLock);
