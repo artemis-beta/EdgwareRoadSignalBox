@@ -8,6 +8,7 @@
 #include "framelever.hxx"
 #include "pointsindicator.hxx"
 #include "signalindicator.hxx"
+#include "traindescriber.hxx"
 
 namespace EWRB
 {
@@ -20,15 +21,18 @@ namespace EWRB
             QMap<int, EWRB::PointsIndicator*> _indicators;
             QMap<int, EWRB::SignalPanelIndicator*> _sig_indicators;
             QMap<int, EWRB::SignalMapIndicator*> _map_indicators;
+            QMap<int, EWRB::TrainDescriber*> _train_describers;
+            Dispatcher* _dispatcher = nullptr;
 
         public:
             LeverFrame(QWidget* parent);
+            void setDispatcher(Dispatcher* dispatcher) {_dispatcher = dispatcher;}
             EWRB::FrameLever* operator[](const int& i)
             {
                 return _levers[i];
             }
             QList<int> levers() const {return _levers.keys();}
-            void update();
+            void update(const int& i=-1);
             void addSignalPanelIndicator(BlockSection* section)
             {
                 _sig_indicators[section->id()] = new SignalPanelIndicator(_parent, section);
@@ -46,8 +50,15 @@ namespace EWRB
                 _map_indicators[indicator->getMirroredSignal()->id()] = indicator;
             }
 
+            void addTrainDescriber(const int& id, const QString& type, const int& x, const int& y)
+            {
+                _train_describers[id] = new TrainDescriber(_train_describers.size(), _dispatcher, _parent, type);
+                _train_describers[id]->PlaceAt(x, y);
+            }
+
             void placeSigIndicators();
             void placeMapIndicators();
+            void placeDescribers();
     };
 };
 #endif // LEVERFRAME_HXX

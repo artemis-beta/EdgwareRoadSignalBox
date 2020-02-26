@@ -1377,9 +1377,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.6203867"
-     inkscape:cx="903.10099"
-     inkscape:cy="515.91977"
+     inkscape:zoom="10.24"
+     inkscape:cx="577.34422"
+     inkscape:cy="157.84378"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2221,12 +2221,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="33.746803"
+       x="33.540092"
        y="252.34747"
        id="text3697-5-8-0"><tspan
          sodipodi:role="line"
          id="tspan3695-0-1-1"
-         x="33.746803"
+         x="33.540092"
          y="252.34747"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">5</tspan></text>
     <text
@@ -2298,12 +2298,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'gill sans';-inkscape-font-specification:'gill sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="77.461784"
+       x="77.571838"
        y="252.34747"
        id="text3697-5-8-04-4"><tspan
          sodipodi:role="line"
          id="tspan3695-0-1-5-7"
-         x="77.461784"
+         x="77.571838"
          y="252.34747"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">12</tspan></text>
     <circle
@@ -3904,7 +3904,7 @@
          id="tspan1846-7-3-2"
          x="179.48186"
          y="257.91544"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">14, 15</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">14. 15</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -5049,48 +5049,6 @@
          x="19.062323"
          y="133.02835"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">BAKER ST.</tspan></text>
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="125.34663" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="126.69003" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="126.69003" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="126.69003" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="126.69003" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-5"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.122257"
-       y="125.34663" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.43291152px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03582279px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -5115,132 +5073,6 @@
          x="17.399153"
          y="141.53218"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">PLATFORM No. 4</tspan></text>
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="133.2841" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="134.6275" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="134.6275" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="134.6275" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="134.6275" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="133.29836" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-9"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="133.29836" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="133.29836" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="133.2841" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="134.6275" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174885"
-       y="134.6275" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0-1"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174885"
-       y="133.29836" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="136.00832" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-08"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="136.00832" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="136.00832" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-4"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="136.00832" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="136.00832" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3-6"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="136.00832" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.43291152px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03582279px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -5265,425 +5097,54 @@
          x="17.399153"
          y="151.7368"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">PLATFORM No. 3</tspan></text>
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-4"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="142.80901" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-2"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="144.1524" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="144.1524" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-4"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="144.1524" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-49"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="144.1524" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-3-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="142.82326" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-9-1"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="142.82326" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="142.82326" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-3-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="142.80901" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8-74"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="144.1524" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="144.1524" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0-1-4"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="142.82326" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-0-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="145.5332" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-08-1"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="145.5332" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-0-2"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="145.5332" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-4-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="145.5332" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8-7-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="145.5332" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3-6-9"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="145.5332" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.43291152px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03582279px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="15.970121"
-       y="161.19702"
+       y="160.6301"
        id="text1933-8-9"
        transform="scale(1.0713436,0.93340735)"><tspan
          sodipodi:role="line"
          id="tspan1931-42-9"
          x="15.970121"
-         y="161.19702"
+         y="160.6301"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">NEXT I.R. TRAIN FROM</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.43291152px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03582279px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="17.399153"
-       y="162.50822"
+       y="161.9413"
        id="text1933-3-5-6"
        transform="scale(1.0713436,0.93340735)"><tspan
          sodipodi:role="line"
          id="tspan1931-4-0-1"
          x="17.399153"
-         y="162.50822"
+         y="161.9413"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">PLATFORM No. 4</tspan></text>
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="152.86322" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="154.20662" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-9"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="154.20662" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="154.20662" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-40"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="154.20662" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-3-6"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="152.87747" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-9-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="152.87747" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0-4"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="152.87747" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-3-6"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="152.86322" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8-9"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="154.20662" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="154.20662" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0-1-49"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="152.87747" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-08-19"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="155.58742" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-0-6"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="155.58742" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-4-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="155.58742" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8-7-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="155.58742" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3-6-97"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="155.58742" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.43291152px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03582279px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="16.958975"
-       y="172.53546"
+       y="170.83469"
        id="text1933-8-3"
        transform="scale(1.0713436,0.93340735)"><tspan
          sodipodi:role="line"
          id="tspan1931-42-1"
          x="16.958975"
-         y="172.53546"
+         y="170.83469"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">NEXT TRAIN FROM</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.43291152px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03582279px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="17.254442"
-       y="173.84666"
+       y="172.14589"
        id="text1933-3-5-5"
        transform="scale(1.0713436,0.93340735)"><tspan
          sodipodi:role="line"
          id="tspan1931-4-0-64"
          x="17.254442"
-         y="173.84666"
+         y="172.14589"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">SIGNAL OP 11.  12.</tspan></text>
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-51"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="163.44649" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-28"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="164.78989" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-80"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="164.78989" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="164.78989" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-7"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="164.78989" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-3-9"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="163.46074" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-9-6"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="163.46074" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0-01"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="163.46074" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-7-3-2"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="163.44649" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="164.78989" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3-2"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="164.78989" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-0-1-1"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="163.46074" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-0-1"
-       width="3.0178363"
-       height="1.0159053"
-       x="20.107828"
-       y="166.17068" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-08-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="23.450748"
-       y="166.17068" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-8-0-1"
-       width="3.0178363"
-       height="1.0159053"
-       x="16.705145"
-       y="166.17068" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-0-7-2-4-3"
-       width="3.0178363"
-       height="1.0159053"
-       x="13.272578"
-       y="166.17068" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-07-8-7-8"
-       width="3.0178363"
-       height="1.0159053"
-       x="26.831964"
-       y="166.17068" />
-    <rect
-       style="fill:#262623;fill-opacity:1;stroke:none;stroke-width:0.0671334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1953-9-8-6-3-6-0"
-       width="3.0178363"
-       height="1.0159053"
-       x="30.174883"
-       y="166.17068" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.43291152px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03582279px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6332,5 +5793,871 @@
          x="221.3801"
          y="178.38226"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.22386706px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';stroke-width:0.03582279px">PLATFORM No, 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="135.03185"
+       y="260.03214"
+       id="text1848-1-2-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9"
+         x="135.03185"
+         y="260.03214"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">14, 15</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="129.26277"
+       y="260.03214"
+       id="text1848-1-2-6-3-1"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-1"
+         x="129.26277"
+         y="260.03214"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">23</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="82.909927"
+       y="258.45337"
+       id="text1848-1-5-9-7-0-5-2"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-1-9-9-6-1-6"
+         x="82.909927"
+         y="258.45337"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">CROSSOVER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="77.120148"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9"><tspan
+         sodipodi:role="line"
+         x="77.120148"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515">PRAED ST</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="76.457832"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-9"><tspan
+         sodipodi:role="line"
+         x="76.457832"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-0">JUNCTION TO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="76.474197"
+       y="256.33667"
+       id="text1848-1-5-9-7-0-5-2-9-9-6"><tspan
+         sodipodi:role="line"
+         x="76.474197"
+         y="256.33667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-0-1">PADDINGTON</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="76.546761"
+       y="257.39502"
+       id="text1848-1-5-9-7-0-5-2-9-9-6-7"><tspan
+         sodipodi:role="line"
+         x="76.546761"
+         y="257.39502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-0-1-3">(SUBURBAN)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="70.66555"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8"><tspan
+         sodipodi:role="line"
+         x="70.66555"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7">PRAED ST</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="70.003227"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-9-0"><tspan
+         sodipodi:role="line"
+         x="70.003227"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-0-3">JUNCTION TO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="70.019592"
+       y="256.33667"
+       id="text1848-1-5-9-7-0-5-2-9-9-6-6"><tspan
+         sodipodi:role="line"
+         x="70.019592"
+         y="256.33667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-0-1-9">PADDINGTON</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="70.901749"
+       y="257.39502"
+       id="text1848-1-5-9-7-0-5-2-9-9-6-7-1"><tspan
+         sodipodi:role="line"
+         x="70.901749"
+         y="257.39502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-0-1-3-4">(CIRCLE)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="78.462799"
+       y="258.97379"
+       id="text1848-1-2-6-3-1-1"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-1-4"
+         x="78.462799"
+         y="258.97379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">26</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="63.695435"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8-6"><tspan
+         sodipodi:role="line"
+         x="63.695435"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-1">SHUNT FROM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="63.643757"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-0"><tspan
+         sodipodi:role="line"
+         x="63.643757"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-1-2">SIDING N    26</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.52916676px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="67.040154"
+       y="254.97531"
+       id="text1848-1-2-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0"
+         x="67.040154"
+         y="254.97531"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.52916676px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.231262"
+       y="256.33667"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-4"><tspan
+         sodipodi:role="line"
+         x="65.231262"
+         y="256.33667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-1-3">TO I.R.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.233635"
+       y="257.91544"
+       id="text1848-1-2-6-3-1-1-1"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-1-4-7"
+         x="65.233635"
+         y="257.91544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">19, 17</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.74072856px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01851822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="50.691601"
+       y="254.11879"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9"><tspan
+         sodipodi:role="line"
+         x="50.691601"
+         y="254.11879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.73319763px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01851822px"
+         id="tspan2515-7-1-4">SHUNT FROM O.R.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.74072856px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01851822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="51.001667"
+       y="254.97038"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-7"><tspan
+         sodipodi:role="line"
+         x="51.001667"
+         y="254.97038"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.73319763px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01851822px"
+         id="tspan2515-7-1-4-0">TO ROAD N    23</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.33444127px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01407818px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.415298"
+       y="254.65396"
+       id="text1848-1-2-0-4-1"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-1"
+         x="54.415298"
+         y="254.65396"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.33444127px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01407818px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.74072856px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01851822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="51.001667"
+       y="255.83488"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-7-5"><tspan
+         sodipodi:role="line"
+         x="51.001667"
+         y="255.83488"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.73319763px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01851822px"
+         id="tspan2515-7-1-4-0-2">OR ROAD N    22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.33444127px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01407818px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.46698"
+       y="255.51842"
+       id="text1848-1-2-0-4-1-2"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-1-2"
+         x="54.46698"
+         y="255.51842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.33444127px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01407818px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.74072856px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01851822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="51.001667"
+       y="256.64795"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-7-5-4"><tspan
+         sodipodi:role="line"
+         x="51.001667"
+         y="256.64795"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.73319763px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01851822px"
+         id="tspan2515-7-1-4-0-2-9">OR ROAD N    21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.33444127px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01407818px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.46698"
+       y="256.33157"
+       id="text1848-1-2-0-4-1-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-1-2-7"
+         x="54.46698"
+         y="256.33157"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.33444127px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01407818px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.74072856px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01851822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="51.530834"
+       y="257.73212"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-7-5-4-2"><tspan
+         sodipodi:role="line"
+         x="51.530834"
+         y="257.73212"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.73319763px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01851822px"
+         id="tspan2515-7-1-4-0-2-9-0">14, 15, 22 OR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.74072856px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01851822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="51.530834"
+       y="258.42911"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-7-5-4-2-9"><tspan
+         sodipodi:role="line"
+         x="51.530834"
+         y="258.42911"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.73319763px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01851822px"
+         id="tspan2515-7-1-4-0-2-9-0-0">14, 22, 21 OR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.74072856px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01851822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="53.002052"
+       y="259.20346"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-7-5-4-2-9-7"><tspan
+         sodipodi:role="line"
+         x="53.002052"
+         y="259.20346"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.73319763px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.01851822px"
+         id="tspan2515-7-1-4-0-2-9-0-0-1">NIL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="44.753967"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8-0"><tspan
+         sodipodi:role="line"
+         x="44.753967"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9">I.R. STARTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="44.753967"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2"><tspan
+         sodipodi:role="line"
+         x="44.753967"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-9">FROM ROAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="45.812302"
+       y="256.33667"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2-6"><tspan
+         sodipodi:role="line"
+         x="45.812302"
+         y="256.33667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-9-0">N     24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.52916682px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="46.402645"
+       y="256.03363"
+       id="text1848-1-2-0-4-2"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-8"
+         x="46.402645"
+         y="256.03363"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.52916682px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="38.403961"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4"><tspan
+         sodipodi:role="line"
+         x="38.403961"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4">I.R. STARTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="38.403961"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2-8"><tspan
+         sodipodi:role="line"
+         x="38.403961"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-9-01">FROM ROAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="39.462296"
+       y="256.33667"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2-6-5"><tspan
+         sodipodi:role="line"
+         x="39.462296"
+         y="256.33667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-9-0-1">N     23</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.52916682px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="40.052639"
+       y="256.03363"
+       id="text1848-1-2-0-4-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-8-1"
+         x="40.052639"
+         y="256.03363"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.52916682px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="40.362793"
+       y="257.91544"
+       id="text1848-1-2-6-3-1-1-1-5"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-1-4-7-1"
+         x="40.362793"
+         y="257.91544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="32.053955"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4-7"><tspan
+         sodipodi:role="line"
+         x="32.053955"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4-0">I.R. STARTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="32.053955"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2-8-8"><tspan
+         sodipodi:role="line"
+         x="32.053955"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-9-01-5">FROM ROAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.9306106px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02326527px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="26.862425"
+       y="256.10501"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2-6-5-3"><tspan
+         sodipodi:role="line"
+         x="26.862425"
+         y="256.10501"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.92114919px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02326527px"
+         id="tspan2515-7-9-9-0-1-7">N     24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.55268967px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02326527px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="27.47901"
+       y="255.78844"
+       id="text1848-1-2-0-4-2-1-9"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-8-1-6"
+         x="27.47901"
+         y="255.78844"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.55268967px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02326527px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="33.328587"
+       y="257.91544"
+       id="text1848-1-2-6-3-1-1-1-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-1-4-7-1-1"
+         x="33.328587"
+         y="257.91544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">21, 22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="90.124794"
+       y="258.45337"
+       id="text1848-1-5-9-7-0-7-5"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-1-9-9-6-9-8"
+         x="90.124794"
+         y="258.45337"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">POINTS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="96.474792"
+       y="258.45337"
+       id="text1848-1-5-9-7-0-7-5-0"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-1-9-9-6-9-8-9"
+         x="96.474792"
+         y="258.45337"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">POINTS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="97.345245"
+       y="260.03214"
+       id="text1848-1-2-6-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-4"
+         x="97.345245"
+         y="260.03214"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.82677144px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02066929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="25.233099"
+       y="254.14032"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-9"><tspan
+         sodipodi:role="line"
+         x="25.233099"
+         y="254.14032"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.81836575px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02066929px"
+         id="tspan2515-7-1-4-05">I.R. INNER HOME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.82677144px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02066929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="26.524994"
+       y="255.09528"
+       id="text1848-1-5-9-7-0-5-2-9-8-6-9-9-5"><tspan
+         sodipodi:role="line"
+         x="26.524994"
+         y="255.09528"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.81836575px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02066929px"
+         id="tspan2515-7-1-4-05-4">TO ROAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="19.922388"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4-7-4"><tspan
+         sodipodi:role="line"
+         x="19.922388"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4-0-3">I.R. HOME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="20.02574"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4-7-4-8"><tspan
+         sodipodi:role="line"
+         x="20.02574"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4-0-3-2">TO ROAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="20.463974"
+       y="256.33667"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2-6-5-2"><tspan
+         sodipodi:role="line"
+         x="20.463974"
+         y="256.33667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-9-0-1-6">N     23</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.52916682px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="21.054317"
+       y="256.03363"
+       id="text1848-1-2-0-4-2-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-8-1-0"
+         x="21.054317"
+         y="256.03363"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.52916682px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="20.628592"
+       y="257.91544"
+       id="text1848-1-2-6-3-1-1-1-5-3-0"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-1-4-7-1-1-0"
+         x="20.628592"
+         y="257.91544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">13, 22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="13.572389"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4-7-4-81"><tspan
+         sodipodi:role="line"
+         x="13.572389"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4-0-3-7">I.R. HOME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="13.67574"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4-7-4-8-6"><tspan
+         sodipodi:role="line"
+         x="13.67574"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4-0-3-2-7">TO ROAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.113975"
+       y="256.33667"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-2-6-5-2-1"><tspan
+         sodipodi:role="line"
+         x="14.113975"
+         y="256.33667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-9-0-1-6-4">N     24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.52916682px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.704317"
+       y="256.03363"
+       id="text1848-1-2-0-4-2-1-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-6-0-8-1-0-1"
+         x="14.704317"
+         y="256.03363"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.52916682px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="6.9855494"
+       y="254.22003"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4-7-4-81-3"><tspan
+         sodipodi:role="line"
+         x="6.9855494"
+         y="254.22003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4-0-3-7-1">I.R. OUTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="7.8373189"
+       y="255.27835"
+       id="text1848-1-5-9-7-0-5-2-9-8-0-4-7-4-8-6-9"><tspan
+         sodipodi:role="line"
+         x="7.8373189"
+         y="255.27835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan2515-7-9-4-0-3-2-7-3">HOME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="7.2343135"
+       y="256.7475"
+       id="text1848-1-2-6-3-1-1-1-5-3-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan1846-7-3-2-9-1-4-7-1-1-0-1"
+         x="7.2343135"
+         y="256.7475"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px">NIL OR 13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="214.95529"
+       y="126.73064"
+       id="text3663-0-0-8-6-0"
+       inkscape:transform-center-x="0.11864123"
+       inkscape:transform-center-y="0.029668347"><tspan
+         sodipodi:role="line"
+         x="214.95529"
+         y="126.73064"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="tspan3401">PADDINGTON</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="215.87195"
+       y="127.41484"
+       id="text3663-0-0-8-6-0-0"
+       inkscape:transform-center-x="0.11864123"
+       inkscape:transform-center-y="0.029668347"><tspan
+         sodipodi:role="line"
+         x="215.87195"
+         y="127.41484"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="tspan3401-3">(CIRCLE)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="214.95529"
+       y="152.29817"
+       id="text3663-0-0-8-6-0-2"
+       inkscape:transform-center-x="0.11864123"
+       inkscape:transform-center-y="0.029668347"><tspan
+         sodipodi:role="line"
+         x="214.95529"
+         y="152.29817"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="tspan3401-8">PADDINGTON</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="215.23946"
+       y="152.98238"
+       id="text3663-0-0-8-6-0-0-2"
+       inkscape:transform-center-x="0.11864123"
+       inkscape:transform-center-y="0.029668347"><tspan
+         sodipodi:role="line"
+         x="215.23946"
+         y="152.98238"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.68181777px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01704544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="tspan3401-3-4">(SUBURBAN)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="152.65857"
+       y="259.50867"
+       id="text1848-7"><tspan
+         sodipodi:role="line"
+         x="152.65857"
+         y="259.50867"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806">EMERGENCY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="153.33023"
+       y="260.56702"
+       id="text1848-7-3"><tspan
+         sodipodi:role="line"
+         x="153.33023"
+         y="260.56702"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8">RELEASE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="152.65857"
+       y="261.62537"
+       id="text1848-7-3-0"><tspan
+         sodipodi:role="line"
+         x="152.65857"
+         y="261.62537"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2">FOR SIGNALS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="152.86523"
+       y="262.68372"
+       id="text1848-7-3-0-4"><tspan
+         sodipodi:role="line"
+         x="152.86523"
+         y="262.68372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-8">1,2,3,4,5,6,7,</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="154.47862"
+       y="258.45032"
+       id="text1848-7-39"><tspan
+         sodipodi:role="line"
+         x="154.47862"
+         y="258.45032"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-0">I.R.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="153.20107"
+       y="263.66452"
+       id="text1848-7-3-0-4-5"><tspan
+         sodipodi:role="line"
+         x="153.20107"
+         y="263.66452"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-8-2">10,11,12,32</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="153.04607"
+       y="264.56778"
+       id="text1848-7-3-0-4-5-2"><tspan
+         sodipodi:role="line"
+         x="153.04607"
+         y="264.56778"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-8-2-7">POINTS 26</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="159.00853"
+       y="259.50867"
+       id="text1848-7-37"><tspan
+         sodipodi:role="line"
+         x="159.00853"
+         y="259.50867"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-9">EMERGENCY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="159.68019"
+       y="260.56702"
+       id="text1848-7-3-02"><tspan
+         sodipodi:role="line"
+         x="159.68019"
+         y="260.56702"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-3">RELEASE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="159.00853"
+       y="261.62537"
+       id="text1848-7-3-0-9"><tspan
+         sodipodi:role="line"
+         x="159.00853"
+         y="261.62537"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-9">FOR SIGNALS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="159.39603"
+       y="262.68372"
+       id="text1848-7-3-0-4-7"><tspan
+         sodipodi:role="line"
+         x="159.39603"
+         y="262.68372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-8-0">8,28,29,30</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="160.64775"
+       y="258.45032"
+       id="text1848-7-39-3"><tspan
+         sodipodi:role="line"
+         x="160.64775"
+         y="258.45032"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-0-9">O.R.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="159.86018"
+       y="263.66452"
+       id="text1848-7-3-0-4-5-8"><tspan
+         sodipodi:role="line"
+         x="159.86018"
+         y="263.66452"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-8-2-6">31,33,34</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="159.39603"
+       y="265.62613"
+       id="text1848-7-3-0-4-5-2-5"><tspan
+         sodipodi:role="line"
+         x="159.39603"
+         y="265.62613"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-8-2-7-7">POINTS 27</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.89100313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02227508px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="159.21436"
+       y="264.59363"
+       id="text1848-7-3-0-4-5-8-6"><tspan
+         sodipodi:role="line"
+         x="159.21436"
+         y="264.59363"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;font-family:'.SF Compact Rounded';-inkscape-font-specification:'.SF Compact Rounded';fill:#ffffff;fill-opacity:1;stroke-width:0.02227508px"
+         id="tspan1806-8-2-8-2-6-2">35,36,37,38</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="151.54114"
+       y="270.51581"
+       id="text1992"><tspan
+         sodipodi:role="line"
+         id="tspan1990"
+         x="151.54114"
+         y="270.51581"
+         style="stroke-width:0.26458332px"> </tspan></text>
   </g>
 </svg>

@@ -15,6 +15,7 @@
 #include "signal.hxx"
 #include "points.hxx"
 #include "interlocking.hxx"
+#include "dispatcher.hxx"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ERMainWindow; }
@@ -30,6 +31,7 @@ public:
 
 private:
     Ui::ERMainWindow *ui;
+    EWRB::Dispatcher* _dispatcher = new EWRB::Dispatcher;
     QList<QSoundEffect*> _lever_sounds;
     QSoundEffect* _lever_failed = new QSoundEffect;
     EWRB::LeverFrame* _lever_frame = new EWRB::LeverFrame(this);
@@ -37,7 +39,8 @@ private:
     QMap<int, QPushButton*> _lever_frame_buttons;
     void _play_random_lever_sound();
     void _add_indicators();
-public slots:
+public:
     void _lever_action(const int& i);
+    EWRB::Dispatcher* getDispatcher() const {return _dispatcher;}
 };
 #endif // ERMAINWINDOW_HXX

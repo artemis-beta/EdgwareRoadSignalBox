@@ -43,6 +43,7 @@ ERMainWindow::ERMainWindow(QWidget *parent)
         _lever_sounds[i-1]->setSource(QUrl::fromLocalFile(":/audio/audio/lever_move_"+QString::number(i)+".wav"));
     }
 
+    _lever_frame->setDispatcher(_dispatcher);
     _lever_frame->update();
 
 }
@@ -104,6 +105,7 @@ void ERMainWindow::_add_indicators()
 
     _lever_frame->placeSigIndicators();
     _lever_frame->placeMapIndicators();
+    _lever_frame->placeDescribers();
 }
 
 void ERMainWindow::_lever_action(const int &i)
@@ -115,8 +117,7 @@ void ERMainWindow::_lever_action(const int &i)
         _lever_failed->play();
         return;
     }
-
-    _lever_frame->update();
+    _lever_frame->update(i);
     _play_random_lever_sound();
 }
 

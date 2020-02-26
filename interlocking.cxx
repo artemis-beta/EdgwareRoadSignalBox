@@ -143,8 +143,9 @@ void EWRB::InterLocking::_create_logic_table()
                    };
 
     _logic[20] = {{EWRB::LeverState::On,           // Points 20 can only be changed when SIG. 6, SIG. 5, SIG. 7 are ON
-                   {{6, EWRB::LeverState::Off},    // and SIG. 33 is set to ON or left branch
+                   {{6, EWRB::LeverState::Off},    // and SIG. 33 is set to ON or left branch. Points 23 at Normal.
                     {5, EWRB::LeverState::Off},
+                    {23, EWRB::LeverState::Off},
                     {7, EWRB::LeverState::Off},
                     {34, EWRB::LeverState::Off},
                     {35, EWRB::LeverState::Off},
@@ -153,22 +154,25 @@ void EWRB::InterLocking::_create_logic_table()
                    {{6, EWRB::LeverState::Off},
                    {5, EWRB::LeverState::Off},
                     {7, EWRB::LeverState::Off},
+                    {23, EWRB::LeverState::Off},
                    {34, EWRB::LeverState::Off},
                    {35, EWRB::LeverState::Off},
                    {32, EWRB::LeverState::Off}}}
                  };
 
     _logic[21] = {{EWRB::LeverState::On,           // Points 21 can only be changed when SIG. 6, SIG. 5, SIG. 7 are ON
-                   {{6, EWRB::LeverState::Off},    // and SIG. 33 is set to ON or left branch
+                   {{6, EWRB::LeverState::Off},    // and SIG. 33 is set to ON or left branch. Points 22 at Normal.
                     {5, EWRB::LeverState::Off},
                     {7, EWRB::LeverState::Off},
                     {34, EWRB::LeverState::Off},
+                    {22, EWRB::LeverState::Off},
                     {35, EWRB::LeverState::Off},
                     {32, EWRB::LeverState::Off}}},
                   {EWRB::LeverState::Off,
                    {{6, EWRB::LeverState::Off},
                    {5, EWRB::LeverState::Off},
                     {7, EWRB::LeverState::Off},
+                    {22, EWRB::LeverState::Off},
                    {34, EWRB::LeverState::Off},
                    {35, EWRB::LeverState::Off},
                    {32, EWRB::LeverState::Off}}}
@@ -364,8 +368,11 @@ bool EWRB::InterLocking::Query(const int& id)
 {
     update(id);
 
-    if(_lever_frame->operator[](id)->isLocked()) return false;
-
+    if(_lever_frame->operator[](id)->isLocked())
+    {
+        _lever_frame->operator[](id)->moveLever(EWRB::LeverState::Mid);
+        return false;
+    }
     else
     {
         _lever_frame->operator[](id)->moveLever();

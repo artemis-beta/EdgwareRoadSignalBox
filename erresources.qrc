@@ -45,6 +45,16 @@
         <file>svgs/AT2EWWest_Clear_270.svg</file>
         <file>svgs/White_LeverBack.svg</file>
         <file>svgs/White_LeverForward.svg</file>
+        <file>svgs/TrainDescriberC.svg</file>
+        <file>svgs/TrainDescriberER.svg</file>
+        <file>svgs/TrainDescriberERC.svg</file>
+        <file>svgs/TrainDescriberHM.svg</file>
+        <file>svgs/TrainDescriberOff.svg</file>
+        <file>svgs/TrainDescriberW.svg</file>
+        <file>svgs/Yellow_LeverMid.svg</file>
+        <file>svgs/White_LeverMid.svg</file>
+        <file>svgs/Red_LeverMid.svg</file>
+        <file>svgs/Black_LeverMid.svg</file>
     </qresource>
     <qresource prefix="/audio">
         <file>audio/lever_move_1.wav</file>
@@ -56,5 +66,7 @@
         <file>audio/lever_move_7.wav</file>
         <file>audio/lever_move_8.wav</file>
         <file>audio/lever_fail.wav</file>
+        <file>audio/air_release.wav</file>
+        <file>audio/points_indicator.wav</file>
     </qresource>
 </RCC>

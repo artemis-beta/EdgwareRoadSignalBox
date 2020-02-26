@@ -1,6 +1,6 @@
 #include "pointsindicator.hxx"
 
-void EWRB::PointsIndicator::update()
+void EWRB::PointsIndicator::update(bool silent)
 {
     if(_linked_lever->getState() == EWRB::LeverState::On)
     {
@@ -15,6 +15,7 @@ void EWRB::PointsIndicator::update()
         _svgs[EWRB::PointsState::Reverse]->hide();
         _svgs[EWRB::PointsState::Normal]->show();
     }
+    if(!silent)_indicator_sound->play();
 }
 
 void EWRB::PointsIndicator::PlaceAt(const int &x, const int &y)

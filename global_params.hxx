@@ -16,6 +16,7 @@ namespace EWRB
     enum class LeverState
     {
         Off,
+        Mid,
         On
     };
 

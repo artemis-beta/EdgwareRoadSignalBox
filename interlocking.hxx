@@ -31,7 +31,7 @@ namespace EWRB
 
             EWRB::LeverState reverse(EWRB::LeverState state) const
             {
-                return (state == EWRB::LeverState::On) ? EWRB::LeverState::Off : EWRB::LeverState::On;
+                return EWRB::FrameLever().reverse(state);
             }
 
             void _setup_block_sections();
