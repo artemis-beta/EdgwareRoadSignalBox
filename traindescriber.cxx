@@ -10,5 +10,5 @@ void EWRB::TrainDescriber::PlaceAt(const int &x, const int &y)
         svg->move(x, y);
     }
 
-    _svgs[false]->hide();
+    _svgs[true]->hide();
 }

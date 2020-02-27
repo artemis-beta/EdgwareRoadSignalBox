@@ -12,9 +12,12 @@
 
 namespace EWRB
 {
-    class LeverFrame
+    class LeverFrame : public QObject
     {
+        Q_OBJECT
         private:
+            QList<QSoundEffect*> _lever_sounds;
+            QSoundEffect* _lever_failed = new QSoundEffect;
             QWidget* _parent = nullptr;
             QSvgWidget* _frame_svg = nullptr;
             QMap<int, EWRB::FrameLever*> _levers;
@@ -55,10 +58,18 @@ namespace EWRB
                 _train_describers[id] = new TrainDescriber(_train_describers.size(), _dispatcher, _parent, type);
                 _train_describers[id]->PlaceAt(x, y);
             }
-
+            void moveLever(const int& i, EWRB::LeverState lever_state, bool points_move)
+            {
+                if(_levers[i]->getState() == EWRB::LeverState::Mid) _play_failed();
+                else if(lever_state != EWRB::LeverState::Mid)_play_random_lever_sound();
+                else _play_failed();
+                _levers[i]->moveLever(lever_state, points_move);
+            }
             void placeSigIndicators();
             void placeMapIndicators();
             void placeDescribers();
+            void _play_random_lever_sound();
+            void _play_failed() {_lever_failed->play();}
     };
 };
 #endif // LEVERFRAME_HXX

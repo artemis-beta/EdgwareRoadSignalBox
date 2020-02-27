@@ -40,6 +40,18 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
         _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
         _levers[i]->showSVG();
     }
+
+    for(int i{1}; i < 9; ++i)
+    {
+        _lever_sounds.append(new QSoundEffect);
+        _lever_sounds[i-1]->setSource(QUrl::fromLocalFile(":/audio/audio/lever_move_"+QString::number(i)+".wav"));
+    }
+}
+
+void EWRB::LeverFrame::_play_random_lever_sound()
+{
+    QSoundEffect* sound = _lever_sounds.at(qrand() % _lever_sounds.size());
+    sound->play();
 }
 
 void EWRB::LeverFrame::placeSigIndicators()

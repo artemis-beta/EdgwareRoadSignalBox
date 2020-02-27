@@ -2,6 +2,7 @@
 #define INTERLOCKING_HXX
 
 #include <QPair>
+#include <QSoundEffect>
 
 #include "signal.hxx"
 #include "points.hxx"

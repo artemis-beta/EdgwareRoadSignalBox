@@ -32,12 +32,9 @@ public:
 private:
     Ui::ERMainWindow *ui;
     EWRB::Dispatcher* _dispatcher = new EWRB::Dispatcher;
-    QList<QSoundEffect*> _lever_sounds;
-    QSoundEffect* _lever_failed = new QSoundEffect;
     EWRB::LeverFrame* _lever_frame = new EWRB::LeverFrame(this);
     EWRB::InterLocking* _interlocking = new EWRB::InterLocking(_lever_frame);
     QMap<int, QPushButton*> _lever_frame_buttons;
-    void _play_random_lever_sound();
     void _add_indicators();
 public:
     void _lever_action(const int& i);

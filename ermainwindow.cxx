@@ -7,8 +7,6 @@ ERMainWindow::ERMainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    _lever_failed->setSource(QUrl::fromLocalFile(":/audio/audio/lever_fail.wav"));
-
     _add_indicators();
 
     for(int i{1}; i < 13; ++i)
@@ -37,21 +35,8 @@ ERMainWindow::ERMainWindow(QWidget *parent)
         _lever_frame_buttons[i]->setStyleSheet("QPushButton{background: transparent;}");
     }
 
-    for(int i{1}; i < 9; ++i)
-    {
-        _lever_sounds.append(new QSoundEffect);
-        _lever_sounds[i-1]->setSource(QUrl::fromLocalFile(":/audio/audio/lever_move_"+QString::number(i)+".wav"));
-    }
-
     _lever_frame->setDispatcher(_dispatcher);
     _lever_frame->update();
-
-}
-
-void ERMainWindow::_play_random_lever_sound()
-{
-    QSoundEffect* sound = _lever_sounds.at(qrand() % _lever_sounds.size());
-    sound->play();
 }
 
 void ERMainWindow::_add_indicators()
@@ -114,11 +99,9 @@ void ERMainWindow::_lever_action(const int &i)
     if(!_interlocking->Query(i))
     {
         qDebug() << "Invalid Move";
-        _lever_failed->play();
         return;
     }
     _lever_frame->update(i);
-    _play_random_lever_sound();
 }
 
 ERMainWindow::~ERMainWindow()

@@ -4,7 +4,6 @@ EWRB::InterLocking::InterLocking(EWRB::LeverFrame* lever_frame)
 {
     _lever_frame = lever_frame;
 
-
     // Qt is not happy without having at least one template entry
 
     _signal_lever_connections = {{1,{new FrameLever, {new Signal, EWRB::SignalState::Off}}}};
@@ -370,12 +369,12 @@ bool EWRB::InterLocking::Query(const int& id)
 
     if(_lever_frame->operator[](id)->isLocked())
     {
-        _lever_frame->operator[](id)->moveLever(EWRB::LeverState::Mid);
+        _lever_frame->moveLever(id, EWRB::LeverState::Mid, _points.contains(id));
         return false;
     }
     else
     {
-        _lever_frame->operator[](id)->moveLever();
+        _lever_frame->moveLever(id, EWRB::LeverState::Off, _points.contains(id));
     }
 
     _perform_action(id);
