@@ -8,7 +8,7 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
 
     for(int i{1}; i < 13; ++i)
     {
-        _levers[i] = new EWRB::HomeLever(_parent);
+        _levers[i] = new EWRB::HomeLever(i, _parent);
         _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
         _levers[i]->showSVG();
     }
@@ -16,15 +16,15 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
     {
         if(i == 16)
         {
-            _levers[i] = new EWRB::SpareLever(_parent);
+            _levers[i] = new EWRB::SpareLever(i, _parent);
         }
         else if(i == 24 || i == 25)
         {
-            _levers[i] = new EWRB::EmergencySignalReleaseLever(_parent);
+            _levers[i] = new EWRB::EmergencySignalReleaseLever(i, _parent);
         }
         else
         {
-            _levers[i] = new EWRB::PointsLever(_parent);
+            _levers[i] = new EWRB::PointsLever(i, _parent);
         }
         if(i != 16 && i != 18)
         {   _indicators[i] = new EWRB::PointsIndicator((EWRB::PointsLever*)_levers[i], _parent);
@@ -36,7 +36,7 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
 
     for(int i{28}; i < 39; ++i)
     {
-        _levers[i] = new EWRB::HomeLever(_parent);
+        _levers[i] = new EWRB::HomeLever(i, _parent);
         _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
         _levers[i]->showSVG();
     }
@@ -46,12 +46,94 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
         _lever_sounds.append(new QSoundEffect);
         _lever_sounds[i-1]->setSource(QUrl::fromLocalFile(":/audio/audio/lever_move_"+QString::number(i)+".wav"));
     }
+
+    _lever_failed->setSource(QUrl::fromLocalFile(":/audio/audio/lever_fail.wav"));
+
+    connect(_levers[13], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd13(EWRB::LeverState)));
+    connect(_levers[14], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd14(EWRB::LeverState)));
+    connect(_levers[15], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd15(EWRB::LeverState)));
+    connect(_levers[17], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd17(EWRB::LeverState)));
+    connect(_levers[19], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd19(EWRB::LeverState)));
+    connect(_levers[20], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd20(EWRB::LeverState)));
+    connect(_levers[21], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd21(EWRB::LeverState)));
+    connect(_levers[22], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd22(EWRB::LeverState)));
+    connect(_levers[23], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd23(EWRB::LeverState)));
+    connect(_levers[26], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd26(EWRB::LeverState)));
+    connect(_levers[27], SIGNAL(sendCurrentLeverDestination(EWRB::LeverState)), this, SLOT(updatePointsInd27(EWRB::LeverState)));
+
+
 }
 
 void EWRB::LeverFrame::_play_random_lever_sound()
 {
     QSoundEffect* sound = _lever_sounds.at(qrand() % _lever_sounds.size());
     sound->play();
+}
+
+void EWRB::LeverFrame::updatePointsInd13(EWRB::LeverState state)
+{
+    _indicators[13]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[13]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd14(EWRB::LeverState state)
+{
+    _indicators[14]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[14]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd15(EWRB::LeverState state)
+{
+    _indicators[15]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[15]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd17(EWRB::LeverState state)
+{
+    _indicators[17]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[17]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd19(EWRB::LeverState state)
+{
+    _indicators[19]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[19]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd20(EWRB::LeverState state)
+{
+    _indicators[20]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[20]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd21(EWRB::LeverState state)
+{
+    _indicators[21]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[21]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd22(EWRB::LeverState state)
+{
+    _indicators[22]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[22]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd23(EWRB::LeverState state)
+{
+    _indicators[23]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[23]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd26(EWRB::LeverState state)
+{
+    _indicators[26]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[26]->update();
+}
+
+void EWRB::LeverFrame::updatePointsInd27(EWRB::LeverState state)
+{
+    _indicators[27]->setState((state == EWRB::LeverState::Off) ? EWRB::PointsState::Normal : EWRB::PointsState::Reverse);
+    _indicators[27]->update();
 }
 
 void EWRB::LeverFrame::placeSigIndicators()
@@ -185,10 +267,6 @@ void EWRB::LeverFrame::update(const int& i)
 
     if(i == -1)
     {
-        for(auto pi : _indicators)
-        {
-            pi->update(true);
-        }
 
         for(auto si : _sig_indicators)
         {
@@ -203,7 +281,6 @@ void EWRB::LeverFrame::update(const int& i)
 
     else
     {
-        if(_indicators.contains(i))_indicators[i]->update(false);
         if(_map_indicators.contains(i))_map_indicators[i]->update();
         if(_sig_indicators.contains(i))_sig_indicators[i]->update();
     }

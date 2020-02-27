@@ -70,6 +70,18 @@ namespace EWRB
             void placeDescribers();
             void _play_random_lever_sound();
             void _play_failed() {_lever_failed->play();}
+       public slots:
+            void updatePointsInd13(EWRB::LeverState);
+            void updatePointsInd14(EWRB::LeverState);
+            void updatePointsInd15(EWRB::LeverState);
+            void updatePointsInd17(EWRB::LeverState);
+            void updatePointsInd19(EWRB::LeverState);
+            void updatePointsInd20(EWRB::LeverState);
+            void updatePointsInd21(EWRB::LeverState);
+            void updatePointsInd22(EWRB::LeverState);
+            void updatePointsInd23(EWRB::LeverState);
+            void updatePointsInd26(EWRB::LeverState);
+            void updatePointsInd27(EWRB::LeverState);
     };
 };
 #endif // LEVERFRAME_HXX

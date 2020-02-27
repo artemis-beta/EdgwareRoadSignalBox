@@ -2,9 +2,10 @@
 
 EWRB::PointsChange::PointsChange(EWRB::FrameLever* parent)
 {
+    connect(_timer, SIGNAL(timeout()), this, SLOT(timerEnded()));
     _parent = parent;
     _sound_effect->setSource(QUrl::fromLocalFile(":/audio/audio/air_release.wav"));
-    connect(_timer, SIGNAL(timeout()), this, SLOT(timerEnded()));
+
 }
 
 bool EWRB::PointsChange::getState()
@@ -69,8 +70,8 @@ void EWRB::FrameLever::moveLever(EWRB::LeverState state, bool points_delay)
 
 void EWRB::FrameLever::pointsChangedFinished()
 {
-    qDebug() << "Timer Run Finished";
     _svgs[_current_state]->hide();
+    emit sendCurrentLeverDestination(reverse(_prev_state));
     _current_state = reverse(_prev_state);
     _svgs[_current_state]->show();
 }

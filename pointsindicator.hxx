@@ -34,6 +34,8 @@ namespace EWRB
             }
             void update(bool silent=false);
             void PlaceAt(const int& x, const int& y);
+            void setState(EWRB::PointsState state){_current_state = state;}
+            EWRB::PointsState getState() const {return _current_state;}
     };
 };
 

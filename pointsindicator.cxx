@@ -2,16 +2,14 @@
 
 void EWRB::PointsIndicator::update(bool silent)
 {
-    if(_linked_lever->getState() == EWRB::LeverState::On)
+    if(_current_state == EWRB::PointsState::Reverse)
     {
-        _current_state = EWRB::PointsState::Reverse;
         _svgs[EWRB::PointsState::Reverse]->show();
         _svgs[EWRB::PointsState::Normal]->hide();
     }
-
     else
     {
-        _current_state = EWRB::PointsState::Normal;
+
         _svgs[EWRB::PointsState::Reverse]->hide();
         _svgs[EWRB::PointsState::Normal]->show();
     }
