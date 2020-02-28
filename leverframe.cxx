@@ -265,6 +265,12 @@ void EWRB::LeverFrame::update(const int& i)
 {
     qDebug() << "Running Frame Update...";
 
+    int signal_id = i;
+
+    if(i == 3) signal_id = 2;
+    else if (i == 34 || i == 35) signal_id = 33;
+    else if (i == 12) signal_id = 11;
+
     if(i == -1)
     {
 
@@ -281,7 +287,10 @@ void EWRB::LeverFrame::update(const int& i)
 
     else
     {
-        if(_map_indicators.contains(i))_map_indicators[i]->update();
-        if(_sig_indicators.contains(i))_sig_indicators[i]->update();
+        if(_map_indicators.contains(signal_id))
+        {
+            _map_indicators[signal_id]->update();
+        }
+        if(_sig_indicators.contains(signal_id))_sig_indicators[signal_id]->update();
     }
 }

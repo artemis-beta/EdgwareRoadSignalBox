@@ -209,7 +209,6 @@ void EWRB::InterLocking::_create_logic_table()
     _logic[26] = {{EWRB::LeverState::On,            // Points 26 can only be changed when SIG. 11 and SIG. 38 are ON
                    {{11, EWRB::LeverState::Off},     // Points 26 reverse requires points 27 to be reverse
                     {12, EWRB::LeverState::Off},
-                    {27, EWRB::LeverState::On},
                     {38, EWRB::LeverState::Off}}},
                   {EWRB::LeverState::Off,
                      {{11, EWRB::LeverState::Off},
@@ -222,7 +221,6 @@ void EWRB::InterLocking::_create_logic_table()
                     {38, EWRB::LeverState::Off}}},
                   {EWRB::LeverState::Off,
                      {{37, EWRB::LeverState::Off},
-                      {26, EWRB::LeverState::Off},  // Points 27 normal requires Points 26 to be normal
                       {38, EWRB::LeverState::Off}}}
                  };
 
