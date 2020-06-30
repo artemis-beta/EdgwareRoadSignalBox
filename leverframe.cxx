@@ -291,6 +291,6 @@ void EWRB::LeverFrame::update(const int& i)
         {
             _map_indicators[signal_id]->update();
         }
-        if(_sig_indicators.contains(signal_id))_sig_indicators[signal_id]->update();
+        if(_sig_indicators.contains(i))_sig_indicators[i]->update();
     }
 }

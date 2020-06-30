@@ -44,8 +44,8 @@ void ERMainWindow::_add_indicators()
 
     _lever_frame->addSignalPanelIndicator(_interlocking->getBlockSection(1));
     _lever_frame->addSignalMapIndicator(_interlocking->getBlockSection(1), 90);
-    _lever_frame->addSignalPanelIndicator(_interlocking->getBlockSection(3));
     _lever_frame->addSignalPanelIndicator(_interlocking->getBlockSection(2));
+    _lever_frame->addSignalPanelIndicator(_interlocking->getBlockSection(3));
     _lever_frame->addCustomMapIndicator(new EWRB::EWREastSignalIndicator(this, {_interlocking->getBlockSection(3), _interlocking->getBlockSection(2)}));
     _lever_frame->addSignalPanelIndicator(_interlocking->getBlockSection(4));
     _lever_frame->addSignalMapIndicator(_interlocking->getBlockSection(4), 67.5);

@@ -38,7 +38,7 @@ namespace EWRB
             void update(const int& i=-1);
             void addSignalPanelIndicator(BlockSection* section)
             {
-                _sig_indicators[section->id()] = new SignalPanelIndicator(_parent, section);
+                _sig_indicators[section->id()] = new SignalPanelIndicator(_parent, section, section->id());
             }
             void addSignalMapIndicator(BlockSection* section, double angle=90)
             {

@@ -106,10 +106,12 @@ namespace EWRB
             QMap<bool, QSvgWidget*> _svgs;
             BlockSection* _entry_block = nullptr;
             int _location[2] = {0, 0};
+            int _id = -1;
         public:
-            SignalPanelIndicator(QWidget* parent, BlockSection* valid_block) :
-                _parent(parent), _entry_block(valid_block)
+            SignalPanelIndicator(QWidget* parent, BlockSection* valid_block, const int indicator_id) :
+                _parent(parent), _entry_block(valid_block), _id(indicator_id)
             {
+                qDebug() << "Connecting to Block " << valid_block->id() << "\n";
                 _svgs[false] = new QSvgWidget(QString(":/svgs/svgs/PanelSigIndOff.svg"), _parent);
                 _svgs[false]->setFixedSize(20,20);
                 _svgs[true] = new QSvgWidget(QString(":/svgs/svgs/PanelSigIndOn.svg"), _parent);
@@ -118,6 +120,7 @@ namespace EWRB
             }
             void PlaceAt(const int& x, const int& y);
             void update();
+            int getID() const {return _id;}
     };
 
 };

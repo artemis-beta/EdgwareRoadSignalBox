@@ -30,6 +30,7 @@ namespace EWRB
             void setBlockPoints(Points* points) {_points_set = {points};}
             void setBlockPoints(QList<Points*> points) {_points_set = points;}
             EWRB::TrackCircuit getState() const {return _track_circuit;}
+            EWRB::SignalState getRequiredState() const {return _required_state;}
             Signal* getBlockSignal() const {return _block_signal;}
             QList<Points*> getPoints() const {return _points_set;}
             int id() const {return _id;}

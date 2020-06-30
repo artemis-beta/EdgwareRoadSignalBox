@@ -7,8 +7,8 @@ namespace EWRB
 {
     enum class SignalState
     {
-        Off,
         On,
+        Off,
         OffJctLeft,
         OffJctRight
     };
