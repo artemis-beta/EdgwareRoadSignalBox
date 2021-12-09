@@ -9,7 +9,7 @@ namespace EWRB
     class Signal
     {
         private:
-            bool _block_occupied;
+            bool _block_occupied = false;
             const int _id = -1;
             EWRB::SignalState _current_state = EWRB::SignalState::On;
         public:
