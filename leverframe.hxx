@@ -4,6 +4,8 @@
 #include <QMap>
 #include <QSvgWidget>
 #include <QDebug>
+#include <QGuiApplication>
+#include <QScreen>
 
 #include "framelever.hxx"
 #include "pointsindicator.hxx"

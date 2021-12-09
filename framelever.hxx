@@ -7,6 +7,8 @@
 #include <QObject>
 #include <QDebug>
 #include <QPushButton>
+#include <QScreen>
+#include <QGuiApplication>
 #include <QSoundEffect>
 #include <QSound>
 #include <QTimer>
@@ -66,15 +68,19 @@ namespace EWRB
             FrameLever(const int& id, const QString& lever_name, QWidget* parent, EWRB::LeverType type) :
                 _id(id), _parent(parent), _type(type)
             {
+                const QScreen *screen_ = QGuiApplication::primaryScreen();
+                const QRect screen_size_ = screen_->geometry();
+                const int height_ = screen_size_.height()*0.98;
+                const int width_ = (1020./600.)*height_;
                 connect(_points_change, SIGNAL(soundFinished()), this, SLOT(pointsChangedFinished()));
                 _svgs[LeverState::Off] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverBack.svg"), _parent);
-                _svgs[LeverState::Off]->setFixedSize(25, 100);
+                _svgs[LeverState::Off]->setFixedSize((width_/1020.)*25, (height_/600.)*100);
                 _svgs[LeverState::Off]->hide();
                 _svgs[LeverState::Mid] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverMid.svg"), _parent);
-                _svgs[LeverState::Mid]->setFixedSize(25, 100);
+                _svgs[LeverState::Mid]->setFixedSize((width_/1020.)*25, (height_/600.)*100);
                 _svgs[LeverState::Mid]->hide();
                 _svgs[LeverState::On] = new QSvgWidget(QString(":/svgs/svgs/")+lever_name+QString("_LeverForward.svg"), _parent);
-                _svgs[LeverState::On]->setFixedSize(25, 100);
+                _svgs[LeverState::On]->setFixedSize((width_/1020.)*25, (height_/600.)*100);
                 _svgs[LeverState::On]->hide();
             }
             EWRB::LeverState reverse(EWRB::LeverState state) const

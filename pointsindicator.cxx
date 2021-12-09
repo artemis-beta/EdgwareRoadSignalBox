@@ -21,5 +21,5 @@ void EWRB::PointsIndicator::PlaceAt(const int &x, const int &y)
     _coords[0] = x; _coords[1] = y;
 
     _svgs[EWRB::PointsState::Normal]->move(x, y);
-    _svgs[EWRB::PointsState::Reverse]->move(x, y+28);
+    _svgs[EWRB::PointsState::Reverse]->move(x, y+y_interval_);
 }

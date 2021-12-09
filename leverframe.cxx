@@ -4,12 +4,16 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
 {
     _parent = parent;
     _frame_svg = new QSvgWidget(QString(":/svgs/svgs/EWRBFrame.svg"), _parent);
-    _frame_svg->setFixedSize(1020, 760);
+    const QScreen *screen_ = QGuiApplication::primaryScreen();
+    const QRect screen_size_ = screen_->geometry();
+    const int height_ = screen_size_.height()*0.98;
+    const int width_ = (1020./600.)*height_;
+    _frame_svg->setFixedSize(width_, height_);
 
     for(int i{1}; i < 13; ++i)
     {
         _levers[i] = new EWRB::HomeLever(i, _parent);
-        _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
+        _levers[i]->PlaceAt((width_/1020.)*(22+(i-1)*24.1), 0.7*height_);
         _levers[i]->showSVG();
     }
     for(int i{13}; i < 28; ++i)
@@ -28,16 +32,16 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
         }
         if(i != 16 && i != 18)
         {   _indicators[i] = new EWRB::PointsIndicator((EWRB::PointsLever*)_levers[i], _parent);
-            _indicators[i]->PlaceAt(291+(i-12)*24.05, 566);
+            _indicators[i]->PlaceAt((width_/1020.)*(291+(i-12)*24.05), (height_/600.)*367);
         }
-        _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
+        _levers[i]->PlaceAt((width_/1020.)*(22+(i-1)*24.1), 0.7*height_);
         _levers[i]->showSVG();
     }
 
     for(int i{28}; i < 39; ++i)
     {
         _levers[i] = new EWRB::HomeLever(i, _parent);
-        _levers[i]->PlaceAt(22+(i-1)*24.1, 620);
+        _levers[i]->PlaceAt((width_/1020.)*(22+(i-1)*24.1), 0.7*height_);
         _levers[i]->showSVG();
     }
 
@@ -138,127 +142,139 @@ void EWRB::LeverFrame::updatePointsInd27(EWRB::LeverState state)
 
 void EWRB::LeverFrame::placeSigIndicators()
 {
+    const QScreen *screen_ = QGuiApplication::primaryScreen();
+    const QRect screen_size_ = screen_->geometry();
+    const int height_ = screen_size_.height()*0.98;
+    const int width_ = (1020./600.)*height_;
     for(int i{1}; i < 13; ++i)
     {
         if(i == 9) continue;
-        _sig_indicators[i]->PlaceAt(24+(i-1)*24,560);
+        _sig_indicators[i]->PlaceAt((width_/1020.)*(24+(i-1)*24),(height_/600.)*363);
     }
 
     for(int i{28}; i < 39; ++i)
     {
-        _sig_indicators[i]->PlaceAt(24+(i-1)*24,560);
+        _sig_indicators[i]->PlaceAt((width_/1020.)*(24+(i-1)*24),(height_/600.)*363);
     }
 }
 
 void EWRB::LeverFrame::placeMapIndicators()
 {
-    _map_indicators[1]->PlaceAt(243, 159);
-    _map_indicators[2]->PlaceAt(302, 159);
-    _map_indicators[4]->PlaceAt(359, 154);
-    _map_indicators[5]->PlaceAt(548, 196);
-    _map_indicators[6]->PlaceAt(548, 160);
-    _map_indicators[7]->PlaceAt(548, 137);
-    _map_indicators[8]->PlaceAt(302, 201);
-    _map_indicators[10]->PlaceAt(542, 120);
-    _map_indicators[11]->PlaceAt(695, 161);
-    _map_indicators[28]->PlaceAt(413, 160);
-    _map_indicators[29]->PlaceAt(413, 196);
-    _map_indicators[30]->PlaceAt(413, 218);
-    _map_indicators[31]->PlaceAt(585, 205);
-    _map_indicators[32]->PlaceAt(645, 164);
-    _map_indicators[33]->PlaceAt(633, 196);
-    _map_indicators[36]->PlaceAt(685, 196);
-    _map_indicators[37]->PlaceAt(739, 196);
-    _map_indicators[38]->PlaceAt(754, 169);
-    _map_indicators[39]->PlaceAt(789, 238);
-    _map_indicators[40]->PlaceAt(791, 155);
+    const QScreen *screen_ = QGuiApplication::primaryScreen();
+    const QRect screen_size_ = screen_->geometry();
+    const int height_ = screen_size_.height()*0.98;
+    const int width_ = (1020./600.)*height_;
+    _map_indicators[1]->PlaceAt((width_/1020.)*243, (height_/600.)*159);
+    _map_indicators[2]->PlaceAt((width_/1020.)*302, (height_/600.)*159);
+    _map_indicators[4]->PlaceAt((width_/1020.)*359, (height_/600.)*154);
+    _map_indicators[5]->PlaceAt((width_/1020.)*548, (height_/600.)*196);
+    _map_indicators[6]->PlaceAt((width_/1020.)*548, (height_/600.)*160);
+    _map_indicators[7]->PlaceAt((width_/1020.)*548, (height_/600.)*137);
+    _map_indicators[8]->PlaceAt((width_/1020.)*302, (height_/600.)*201);
+    _map_indicators[10]->PlaceAt((width_/1020.)*542, (height_/600.)*120);
+    _map_indicators[11]->PlaceAt((width_/1020.)*695, (height_/600.)*161);
+    _map_indicators[28]->PlaceAt((width_/1020.)*413, (height_/600.)*160);
+    _map_indicators[29]->PlaceAt((width_/1020.)*413, (height_/600.)*196);
+    _map_indicators[30]->PlaceAt((width_/1020.)*413, (height_/600.)*218);
+    _map_indicators[31]->PlaceAt((width_/1020.)*585, (height_/600.)*205);
+    _map_indicators[32]->PlaceAt((width_/1020.)*645, (height_/600.)*164);
+    _map_indicators[33]->PlaceAt((width_/1020.)*633, (height_/600.)*196);
+    _map_indicators[36]->PlaceAt((width_/1020.)*685, (height_/600.)*196);
+    _map_indicators[37]->PlaceAt((width_/1020.)*739, (height_/600.)*196);
+    _map_indicators[38]->PlaceAt((width_/1020.)*754, (height_/600.)*169);
+    _map_indicators[39]->PlaceAt((width_/1020.)*789, (height_/600.)*238);
+    _map_indicators[40]->PlaceAt((width_/1020.)*791, (height_/600.)*155);
 }
 
 void EWRB::LeverFrame::placeDescribers()
 {
+    const QScreen *screen_ = QGuiApplication::primaryScreen();
+    const QRect screen_size_ = screen_->geometry();
+    const int height_ = screen_size_.height()*0.98;
+    const int width_ = (1020./600.)*height_;
     const int start_x = 36;
     const int start_y = 97;
 
-    addTrainDescriber(3, "W", start_x+2*13, start_y+0*6);
-    addTrainDescriber(6, "W", start_x+5*13, start_y+0*6);
-    addTrainDescriber(7, "W", start_x+0*13, start_y+1*6);
-    addTrainDescriber(8, "W", start_x+1*13, start_y+1*6);
-    addTrainDescriber(9, "W", start_x+2*13, start_y+1*6);
-    addTrainDescriber(10, "W", start_x+3*13, start_y+1*6);
+    addTrainDescriber(3, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+0*6));
+    addTrainDescriber(6, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+0*6));
+    addTrainDescriber(7, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+1*6));
+    addTrainDescriber(8, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+1*6));
+    addTrainDescriber(9, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+1*6));
+    addTrainDescriber(10, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+1*6));
 
-    addTrainDescriber(13, "W", start_x+0*13, start_y+5*6);
-    addTrainDescriber(14, "W", start_x+1*13, start_y+5*6);
-    addTrainDescriber(15, "W", start_x+2*13, start_y+5*6);
-    addTrainDescriber(16, "W", start_x+3*13, start_y+5*6);
-    addTrainDescriber(17, "W", start_x+4*13, start_y+5*6);
-    addTrainDescriber(18, "W", start_x+5*13, start_y+5*6);
-    addTrainDescriber(19, "W", start_x+0*13, start_y+6*6);
-    addTrainDescriber(20, "W", start_x+1*13, start_y+6*6);
-    addTrainDescriber(21, "W", start_x+2*13, start_y+6*6);
-    addTrainDescriber(22, "W", start_x+3*13, start_y+6*6);
-    addTrainDescriber(23, "W", start_x+4*13, start_y+6*6);
-    addTrainDescriber(24, "W", start_x+5*13, start_y+6*6);
-    addTrainDescriber(25, "W", start_x+0*13, start_y+7*6);
-    addTrainDescriber(26, "W", start_x+1*13, start_y+7*6);
-    addTrainDescriber(27, "W", start_x+2*13, start_y+7*6);
-    addTrainDescriber(28, "W", start_x+3*13, start_y+7*6);
-    addTrainDescriber(29, "W", start_x+4*13, start_y+7*6);
-    addTrainDescriber(30, "W", start_x+5*13, start_y+7*6);
+    addTrainDescriber(13, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+5*6));
+    addTrainDescriber(14, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+5*6));
+    addTrainDescriber(15, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+5*6));
+    addTrainDescriber(16, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+5*6));
+    addTrainDescriber(17, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+5*6));
+    addTrainDescriber(18, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+5*6));
+    addTrainDescriber(19, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+6*6));
+    addTrainDescriber(20, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+6*6));
+    addTrainDescriber(21, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+6*6));
+    addTrainDescriber(22, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+6*6));
+    addTrainDescriber(23, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+6*6));
+    addTrainDescriber(24, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+6*6));
+    addTrainDescriber(25, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+7*6));
+    addTrainDescriber(26, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+7*6));
+    addTrainDescriber(27, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+7*6));
+    addTrainDescriber(28, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+7*6));
+    addTrainDescriber(29, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+7*6));
+    addTrainDescriber(30, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+7*6));
 
-    addTrainDescriber(31, "W", start_x+0*13, start_y+11*6);
-    addTrainDescriber(32, "W", start_x+1*13, start_y+11*6);
-    addTrainDescriber(33, "W", start_x+2*13, start_y+11*6);
-    addTrainDescriber(34, "W", start_x+3*13, start_y+11*6);
-    addTrainDescriber(35, "W", start_x+4*13, start_y+11*6);
-    addTrainDescriber(36, "W", start_x+5*13, start_y+11*6);
-    addTrainDescriber(37, "W", start_x+0*13, start_y+12*6);
-    addTrainDescriber(38, "W", start_x+1*13, start_y+12*6);
-    addTrainDescriber(39, "W", start_x+2*13, start_y+12*6);
-    addTrainDescriber(40, "W", start_x+3*13, start_y+12*6);
-    addTrainDescriber(41, "W", start_x+4*13, start_y+12*6);
-    addTrainDescriber(42, "W", start_x+5*13, start_y+12*6);
-    addTrainDescriber(43, "W", start_x+0*13, start_y+13*6);
-    addTrainDescriber(44, "C", start_x+1*13, start_y+13*6);
-    addTrainDescriber(45, "W", start_x+2*13, start_y+13*6);
-    addTrainDescriber(46, "W", start_x+3*13, start_y+13*6);
-    addTrainDescriber(47, "W", start_x+4*13, start_y+13*6);
-    addTrainDescriber(48, "W", start_x+5*13, start_y+13*6);
+    addTrainDescriber(31, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+11*6));
+    addTrainDescriber(32, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+11*6));
+    addTrainDescriber(33, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+11*6));
+    addTrainDescriber(34, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+11*6));
+    addTrainDescriber(35, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+11*6));
+    addTrainDescriber(36, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+11*6));
+    addTrainDescriber(37, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+12*6));
+    addTrainDescriber(38, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+12*6));
+    addTrainDescriber(39, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+12*6));
+    addTrainDescriber(40, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+12*6));
+    addTrainDescriber(41, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+12*6));
+    addTrainDescriber(42, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+12*6));
+    addTrainDescriber(43, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+13*6));
+    addTrainDescriber(44, "C", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+13*6));
+    addTrainDescriber(45, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+13*6));
+    addTrainDescriber(46, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+13*6));
+    addTrainDescriber(47, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+13*6));
+    addTrainDescriber(48, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+13*6));
 
-    addTrainDescriber(49, "W", start_x+0*13, start_y+17*6);
-    addTrainDescriber(50, "W", start_x+1*13, start_y+17*6);
-    addTrainDescriber(51, "W", start_x+2*13, start_y+17*6);
-    addTrainDescriber(52, "W", start_x+3*13, start_y+17*6);
-    addTrainDescriber(53, "W", start_x+4*13, start_y+17*6);
-    addTrainDescriber(54, "W", start_x+5*13, start_y+17*6);
-    addTrainDescriber(55, "W", start_x+0*13, start_y+18*6);
-    addTrainDescriber(56, "W", start_x+1*13, start_y+18*6);
-    addTrainDescriber(57, "W", start_x+2*13, start_y+18*6);
-    addTrainDescriber(58, "W", start_x+3*13, start_y+18*6);
-    addTrainDescriber(59, "W", start_x+4*13, start_y+18*6);
-    addTrainDescriber(60, "W", start_x+5*13, start_y+18*6);
-    addTrainDescriber(61, "W", start_x+0*13, start_y+19*6);
-    addTrainDescriber(62, "W", start_x+1*13, start_y+19*6);
-    addTrainDescriber(64, "W", start_x+3*13, start_y+19*6);
-    addTrainDescriber(65, "W", start_x+4*13, start_y+19*6);
-    addTrainDescriber(66, "W", start_x+5*13, start_y+19*6);
+    addTrainDescriber(49, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+17*6));
+    addTrainDescriber(50, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+17*6));
+    addTrainDescriber(51, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+17*6));
+    addTrainDescriber(52, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+17*6));
+    addTrainDescriber(53, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+17*6));
+    addTrainDescriber(54, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+17*6));
+    addTrainDescriber(55, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+18*6));
+    addTrainDescriber(56, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+18*6));
+    addTrainDescriber(57, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+18*6));
+    addTrainDescriber(58, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+18*6));
+    addTrainDescriber(59, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+18*6));
+    addTrainDescriber(60, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+18*6));
+    addTrainDescriber(61, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+19*6));
+    addTrainDescriber(62, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+19*6));
+    addTrainDescriber(64, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+19*6));
+    addTrainDescriber(65, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+19*6));
+    addTrainDescriber(66, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+19*6));
 
-    addTrainDescriber(67, "W", start_x+0*13, start_y+23*6);
-    addTrainDescriber(68, "W", start_x+1*13, start_y+23*6);
-    addTrainDescriber(69, "W", start_x+2*13, start_y+23*6);
-    addTrainDescriber(70, "W", start_x+3*13, start_y+23*6);
-    addTrainDescriber(71, "W", start_x+4*13, start_y+23*6);
-    addTrainDescriber(72, "W", start_x+5*13, start_y+23*6);
-    addTrainDescriber(73, "W", start_x+0*13, start_y+24*6);
-    addTrainDescriber(74, "W", start_x+1*13, start_y+24*6);
-    addTrainDescriber(75, "W", start_x+2*13, start_y+24*6);
-    addTrainDescriber(76, "W", start_x+3*13, start_y+24*6);
-    addTrainDescriber(77, "W", start_x+4*13, start_y+24*6);
-    addTrainDescriber(78, "W", start_x+5*13, start_y+24*6);
-    addTrainDescriber(79, "HM", start_x+0*13, start_y+25*6);
-    addTrainDescriber(80, "W", start_x+1*13, start_y+25*6);
-    addTrainDescriber(82, "W", start_x+3*13, start_y+25*6);
-    addTrainDescriber(83, "W", start_x+4*13, start_y+25*6);
-    addTrainDescriber(84, "W", start_x+5*13, start_y+25*6);
+    addTrainDescriber(67, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+23*6));
+    addTrainDescriber(68, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+23*6));
+    addTrainDescriber(69, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+23*6));
+    addTrainDescriber(70, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+23*6));
+    addTrainDescriber(71, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+23*6));
+    addTrainDescriber(72, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+23*6));
+    addTrainDescriber(73, "W", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+24*6));
+    addTrainDescriber(74, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+24*6));
+    addTrainDescriber(75, "W", (width_/1020.)*(start_x+2* 13), (height_/600.)*(start_y+24*6));
+    addTrainDescriber(76, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+24*6));
+    addTrainDescriber(77, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+24*6));
+    addTrainDescriber(78, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+24*6));
+    addTrainDescriber(79, "HM", (width_/1020.)*(start_x+0* 13), (height_/600.)*(start_y+25*6));
+    addTrainDescriber(80, "W", (width_/1020.)*(start_x+1* 13), (height_/600.)*(start_y+25*6));
+    addTrainDescriber(82, "W", (width_/1020.)*(start_x+3* 13), (height_/600.)*(start_y+25*6));
+    addTrainDescriber(83, "W", (width_/1020.)*(start_x+4* 13), (height_/600.)*(start_y+25*6));
+    addTrainDescriber(84, "W", (width_/1020.)*(start_x+5* 13), (height_/600.)*(start_y+25*6));
 }
 
 void EWRB::LeverFrame::update(const int& i)
