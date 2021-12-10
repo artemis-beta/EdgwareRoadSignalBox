@@ -8,9 +8,11 @@
 #include <QScreen>
 
 #include "framelever.hxx"
+#include "scaling.hxx"
 #include "pointsindicator.hxx"
 #include "signalindicator.hxx"
 #include "traindescriber.hxx"
+#include "scaling.hxx"
 
 namespace EWRB
 {

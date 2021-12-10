@@ -26,19 +26,16 @@ namespace EWRB
         public:
             PointsIndicator(EWRB::PointsLever* lever, QWidget* parent) : _linked_lever(lever), _parent(parent)
             {
-                const QScreen *screen_ = QGuiApplication::primaryScreen();
-                const QRect screen_size_ = screen_->geometry();
-                const int height_ = screen_size_.height()*0.98;
-                const int width_ = (1020./600.)*height_;
-                y_interval_ = (height_/600.)*28;
+                const Scaler* scaler_ = new Scaler;
+                y_interval_ = scaler_->scale_height(28);
 
                 _indicator_sound->setSource(QUrl::fromLocalFile(":/audio/audio/points_indicator.wav"));
 
                 _svgs[EWRB::PointsState::Normal] = new QSvgWidget(QString(":/svgs/svgs/PointIndicatorNorm.svg"), parent);
-                _svgs[EWRB::PointsState::Normal]->setFixedSize(15*(width_/1020.),15*(height_/600.));
+                _svgs[EWRB::PointsState::Normal]->setFixedSize(scaler_->scale_width(15), scaler_->scale_height(15));
                 _svgs[EWRB::PointsState::Normal]->show();
                 _svgs[EWRB::PointsState::Reverse] = new QSvgWidget(QString(":/svgs/svgs/PointIndicatorReverse.svg"), parent);
-                _svgs[EWRB::PointsState::Reverse]->setFixedSize(15*(width_/1020.),15*(height_/600.));
+                _svgs[EWRB::PointsState::Reverse]->setFixedSize(scaler_->scale_width(15), scaler_->scale_height(15));
                 _svgs[EWRB::PointsState::Reverse]->hide();
             }
             void update(bool silent=false);
