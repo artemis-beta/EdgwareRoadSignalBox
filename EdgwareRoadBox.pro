@@ -41,6 +41,7 @@ HEADERS += \
     leverframe.hxx \
     points.hxx \
     pointsindicator.hxx \
+    scaling.hxx \
     signal.hxx \
     signalindicator.hxx \
     traindescriber.hxx

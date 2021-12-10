@@ -9,20 +9,24 @@ ERMainWindow::ERMainWindow(QWidget *parent)
 
     _add_indicators();
 
+    const EWRB::Scaler* scaler_ = new EWRB::Scaler;
+
+    this->setFixedSize(scaler_->screen_width(), scaler_->screen_height());
+
     for(int i{1}; i < 13; ++i)
     {
         _lever_frame_buttons[i] = new QPushButton(this);
         connect(_lever_frame_buttons[i], &QPushButton::clicked, [this, i](){_lever_action(i);});
-        _lever_frame_buttons[i]->move(25+(i-1)*24.1, 620);
-        _lever_frame_buttons[i]->setFixedSize(20, 80);
+        _lever_frame_buttons[i]->move(scaler_->scale_width(25+(i-1)*24.1), 0.7*scaler_->screen_height());
+        _lever_frame_buttons[i]->setFixedSize(scaler_->scale_width(20), scaler_->scale_height(80));
         _lever_frame_buttons[i]->setStyleSheet("QPushButton{background: transparent;}");
     }
     for(int i{13}; i < 28; ++i)
     {
         _lever_frame_buttons[i] = new QPushButton(this);
         connect(_lever_frame_buttons[i], &QPushButton::clicked, [this, i](){_lever_action(i);});
-        _lever_frame_buttons[i]->move(25+(i-1)*24.1, 620);
-        _lever_frame_buttons[i]->setFixedSize(20, 80);
+        _lever_frame_buttons[i]->move(scaler_->scale_width(25+(i-1)*24.1), 0.7*scaler_->screen_height());
+        _lever_frame_buttons[i]->setFixedSize(scaler_->scale_width(20), scaler_->scale_height(80));
         _lever_frame_buttons[i]->setStyleSheet("QPushButton{background: transparent;}");
     }
 
@@ -30,8 +34,8 @@ ERMainWindow::ERMainWindow(QWidget *parent)
     {
         _lever_frame_buttons[i] = new QPushButton(this);
         connect(_lever_frame_buttons[i], &QPushButton::clicked, [this, i](){_lever_action(i);});
-        _lever_frame_buttons[i]->move(25+(i-1)*24.1, 620);
-        _lever_frame_buttons[i]->setFixedSize(20, 80);
+        _lever_frame_buttons[i]->move(scaler_->scale_width(25+(i-1)*24.1), 0.7*scaler_->screen_height());
+        _lever_frame_buttons[i]->setFixedSize(scaler_->scale_width(20), scaler_->scale_height(80));
         _lever_frame_buttons[i]->setStyleSheet("QPushButton{background: transparent;}");
     }
 

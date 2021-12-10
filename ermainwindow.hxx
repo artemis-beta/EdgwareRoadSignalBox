@@ -6,10 +6,12 @@
 #include <QMap>
 #include <QSvgWidget>
 #include <QSoundEffect>
+#include <QScreen>
 
 #include <algorithm>
 
 #include "leverframe.hxx"
+#include "scaling.hxx"
 #include "blocksection.hxx"
 #include "signalindicator.hxx"
 #include "signal.hxx"
