@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 10 10"
+   version="1.1"
+   id="svg2091"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="West_Crossing_Block.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2093"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="10mm"
+     inkscape:zoom="3.1108586"
+     inkscape:cx="100.77604"
+     inkscape:cy="151.88733"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2088">
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient67798"
+       id="radialGradient21828"
+       cx="196.40274"
+       cy="145.53571"
+       fx="196.40274"
+       fy="145.53571"
+       r="1.60843"
+       gradientTransform="matrix(1,0,0,0.7208831,0,40.621477)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient67798">
+      <stop
+         style="stop-color:#ffbf39;stop-opacity:1"
+         offset="0"
+         id="stop67794" />
+      <stop
+         style="stop-color:#ffed00;stop-opacity:1"
+         offset="0.35571873"
+         id="stop67946" />
+      <stop
+         style="stop-color:#ffcb00;stop-opacity:1"
+         offset="1"
+         id="stop67796" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient67798"
+       id="radialGradient26769"
+       cx="196.45279"
+       cy="145.56129"
+       fx="196.45279"
+       fy="145.56129"
+       r="2.1025059"
+       gradientTransform="matrix(1,0,0,0.61892611,0,55.469607)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g11391"
+       transform="translate(-191.17132,-140.35516)">
+      <path
+         style="opacity:0.961538;fill:url(#radialGradient21828);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 194.79431,146.21074 c 2.11443,-1.14765 2.08428,-1.31345 2.84866,-1.8539 l 0.38758,0.45864 c -0.67395,0.49953 -1.42541,1.13472 -2.89388,1.87972 z"
+         id="path19676"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="opacity:0.926282;fill:url(#radialGradient26769);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 195.03628,144.22131 c 0,0 1.14582,0.47795 3.13794,2.03023 l -0.44762,0.43392 c 0,0 -1.61504,-1.30513 -3.0118,-1.9655 z"
+         id="path24823"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+</svg>
