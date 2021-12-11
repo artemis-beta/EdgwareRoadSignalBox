@@ -18,7 +18,6 @@ void EWRB::SignalPanelIndicator::update()
     {
         svg->hide();
     }
-
     _svgs[_entry_block->getBlockSignal()->getState() != _entry_block->getRequiredState()]->show();
 }
 

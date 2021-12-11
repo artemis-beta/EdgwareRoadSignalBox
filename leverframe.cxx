@@ -42,7 +42,7 @@ EWRB::LeverFrame::LeverFrame(QWidget* parent)
         _levers[i]->showSVG();
     }
 
-    for(int i{1}; i < 9; ++i)
+    for(int i{1}; i < 8; ++i)
     {
         _lever_sounds.append(new QSoundEffect);
         _lever_sounds[i-1]->setSource(QUrl::fromLocalFile(":/audio/audio/lever_move_"+QString::number(i)+".wav"));

@@ -63,10 +63,9 @@
         <file>audio/lever_move_4.wav</file>
         <file>audio/lever_move_5.wav</file>
         <file>audio/lever_move_6.wav</file>
-        <file>audio/lever_move_7.wav</file>
-        <file>audio/lever_move_8.wav</file>
         <file>audio/lever_fail.wav</file>
         <file>audio/air_release.wav</file>
         <file>audio/points_indicator.wav</file>
+        <file>audio/lever_move_7.wav</file>
     </qresource>
 </RCC>
