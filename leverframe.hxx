@@ -12,6 +12,7 @@
 #include "pointsindicator.hxx"
 #include "signalindicator.hxx"
 #include "traindescriber.hxx"
+#include "trackcircuit.hxx"
 #include "scaling.hxx"
 
 namespace EWRB
@@ -21,6 +22,7 @@ namespace EWRB
         Q_OBJECT
         private:
             QList<QSoundEffect*> _lever_sounds;
+            QMap<QString, TrackCircuit*> track_circuits_;
             QSoundEffect* _lever_failed = new QSoundEffect;
             QWidget* _parent = nullptr;
             QSvgWidget* _frame_svg = nullptr;

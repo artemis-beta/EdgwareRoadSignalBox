@@ -29,6 +29,7 @@ SOURCES += \
     pointsindicator.cxx \
     signal.cxx \
     signalindicator.cxx \
+    trackcircuit.cxx \
     traindescriber.cxx
 
 HEADERS += \
@@ -44,6 +45,7 @@ HEADERS += \
     scaling.hxx \
     signal.hxx \
     signalindicator.hxx \
+    trackcircuit.hxx \
     traindescriber.hxx
 
 FORMS += \

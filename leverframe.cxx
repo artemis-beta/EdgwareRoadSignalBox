@@ -3,6 +3,7 @@
 EWRB::LeverFrame::LeverFrame(QWidget* parent)
 {
     _parent = parent;
+    track_circuits_ = TrackCircuits(parent);
     _frame_svg = new QSvgWidget(QString(":/svgs/svgs/EWRBFrame.svg"), _parent);
     const Scaler* scaler_ = new Scaler;
     _frame_svg->setFixedSize(scaler_->screen_width(), scaler_->screen_height());

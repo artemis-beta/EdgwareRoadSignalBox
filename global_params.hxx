@@ -26,7 +26,7 @@ namespace EWRB
         Reverse
     };
 
-    enum class TrackCircuit
+    enum class TrackCircuitStatus
     {
         Clear,
         Occupied

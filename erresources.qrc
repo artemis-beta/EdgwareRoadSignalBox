@@ -55,6 +55,29 @@
         <file>svgs/White_LeverMid.svg</file>
         <file>svgs/Red_LeverMid.svg</file>
         <file>svgs/Black_LeverMid.svg</file>
+        <file>svgs/Block_131_A_129_B.svg</file>
+        <file>svgs/Block_131_BC.svg</file>
+        <file>svgs/Block_133.svg</file>
+        <file>svgs/Block_175_A_173.svg</file>
+        <file>svgs/Block_177_A_175_B.svg</file>
+        <file>svgs/Block_177_B.svg</file>
+        <file>svgs/Block_AA.svg</file>
+        <file>svgs/Block_AM.svg</file>
+        <file>svgs/Block_AO.svg</file>
+        <file>svgs/Block_AP.svg</file>
+        <file>svgs/Block_AQ_AS.svg</file>
+        <file>svgs/Block_BA.svg</file>
+        <file>svgs/Block_BB.svg</file>
+        <file>svgs/Block_BC.svg</file>
+        <file>svgs/Block_BD.svg</file>
+        <file>svgs/Block_BQ.svg</file>
+        <file>svgs/Block_BV_BT_BR.svg</file>
+        <file>svgs/Block_UF.svg</file>
+        <file>svgs/Block_UH.svg</file>
+        <file>svgs/Block_UJ.svg</file>
+        <file>svgs/Block_UK.svg</file>
+        <file>svgs/Block_UL.svg</file>
+        <file>svgs/Block_129_A.svg</file>
     </qresource>
     <qresource prefix="/audio">
         <file>audio/lever_move_1.wav</file>
@@ -67,5 +90,6 @@
         <file>audio/air_release.wav</file>
         <file>audio/points_indicator.wav</file>
         <file>audio/lever_move_7.wav</file>
+        <file>audio/track_circuit_indicator.wav</file>
     </qresource>
 </RCC>
