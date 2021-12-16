@@ -43,6 +43,7 @@ HEADERS += \
     points.hxx \
     pointsindicator.hxx \
     scaling.hxx \
+    service.hxx \
     signal.hxx \
     signalindicator.hxx \
     trackcircuit.hxx \

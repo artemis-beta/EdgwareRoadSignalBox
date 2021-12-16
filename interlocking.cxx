@@ -393,9 +393,16 @@ void EWRB::InterLocking::_connect(const int& id, EWRB::PointsLever* lever, EWRB:
 
 void EWRB::InterLocking::_setup_block_sections()
 {
+    QMap<QString, TrackCircuit*> _lf_tc = _lever_frame->getTrackCircuits();
     _block_sections[1] = new EWRB::BlockSection(1, "EDGWARE ROAD EAST SIG. 1 SIG. 2");
+    _block_sections[1]->addTrackCircuits({_lf_tc["UK"], _lf_tc["UL"]});
+
     _block_sections[2] = new EWRB::BlockSection(2, "SIG 2. TO EAST PLAT 4 APPROACH");
+    _block_sections[2]->addTrackCircuits({_lf_tc["AA"]});
+
     _block_sections[3] = new EWRB::BlockSection(3, "SIG 2. TO EDGWARE ROAD PLATFORM 3");
+    _block_sections[3]->addTrackCircuits({_lf_tc["AA"], _lf_tc["AE"], _lf_tc["AF"], _lf_tc["AG"], _lf_tc["AJ"]});
+
     _block_sections[4] = new EWRB::BlockSection(4, "EDGWARE ROAD PLATFORM 4");
     _block_sections[5] = new EWRB::BlockSection(5, "EDGWARE ROAD PLATFORM 2 WESTBOUND DEPART");
     _block_sections[6] = new EWRB::BlockSection(6, "EDGWARE ROAD PLATFORM 3 WESTBOUND DEPART");

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg2091"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="Inner_Block_6.svg"
+   sodipodi:docname="Block_AA.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,15 +25,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      width="10mm"
-     inkscape:zoom="3.1108586"
-     inkscape:cx="100.77604"
-     inkscape:cy="151.88733"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:zoom="6.2217172"
+     inkscape:cx="73.532754"
+     inkscape:cy="18.081825"
+     inkscape:window-width="1284"
+     inkscape:window-height="1081"
+     inkscape:window-x="-81"
+     inkscape:window-y="86"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g184152" />
   <defs
      id="defs2088">
     <radialGradient
@@ -106,7 +106,7 @@
          transform="translate(0,-95.916649)" />
       <path
          style="opacity:0.916667;fill:url(#radialGradient75035-3-1-0-6);fill-opacity:1;stroke:none;stroke-width:0.222558px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 100.51914,46.870878 v 0.655149 H 84.848945 v -0.623951 z"
+         d="m 99.881253,46.870878 v 0.655149 H 84.848945 v -0.623951 z"
          id="path31541-4-2-6-0"
          sodipodi:nodetypes="ccccc" />
     </g>

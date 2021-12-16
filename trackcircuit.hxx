@@ -4,6 +4,7 @@
 #include <QSvgWidget>
 #include <QSoundEffect>
 #include <QMap>
+#include <QDebug>
 
 #include "global_params.hxx"
 
@@ -19,10 +20,23 @@ namespace EWRB {
         TrackCircuit(const QString& label, QWidget* parent, const QString& image_path) : label_(label), lit_(new QSvgWidget(image_path, parent)) {
             indicator_sound_->setSource(QUrl::fromLocalFile(":/audio/audio/track_circuit_indicator.wav"));
         }
-        void placeAt(int& x, int& y){position_[0] = x; position_[1] = y;}
+        void PlaceAt(const int& x, const int& y){
+            position_[0] = x; position_[1] = y;
+            lit_->move(x, y);
+        }
+        void SetSize(const int& x, const int& y) {
+            lit_->setFixedSize(x, y);
+        }
         void update() {
             if(state_ == TrackCircuitStatus::Clear) lit_->show();
             else lit_->hide();
+        }
+        TrackCircuitStatus getState() const {
+            return state_;
+        }
+        void SetState(TrackCircuitStatus state) {
+            state_ = state;
+            update();
         }
     };
 

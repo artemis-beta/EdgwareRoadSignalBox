@@ -78,6 +78,25 @@
         <file>svgs/Block_UK.svg</file>
         <file>svgs/Block_UL.svg</file>
         <file>svgs/Block_129_A.svg</file>
+        <file>svgs/Block_AB.svg</file>
+        <file>svgs/Block_AC.svg</file>
+        <file>svgs/Block_AD.svg</file>
+        <file>svgs/Block_AE.svg</file>
+        <file>svgs/Block_AF.svg</file>
+        <file>svgs/Block_AG.svg</file>
+        <file>svgs/Block_AJ.svg</file>
+        <file>svgs/Block_AK.svg</file>
+        <file>svgs/Block_AL.svg</file>
+        <file>svgs/Block_AX_AY_AZ.svg</file>
+        <file>svgs/Block_BE.svg</file>
+        <file>svgs/Block_BH.svg</file>
+        <file>svgs/Block_BJ.svg</file>
+        <file>svgs/Block_BL.svg</file>
+        <file>svgs/Block_BM.svg</file>
+        <file>svgs/Block_BN.svg</file>
+        <file>svgs/Block_BP.svg</file>
+        <file>svgs/Block_CA.svg</file>
+        <file>svgs/Block_AV.svg</file>
     </qresource>
     <qresource prefix="/audio">
         <file>audio/lever_move_1.wav</file>

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg2091"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="Track24_Block_1.svg"
+   sodipodi:docname="Block_AB.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      width="10mm"
-     inkscape:zoom="3.1108586"
-     inkscape:cx="100.77604"
-     inkscape:cy="151.88733"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:zoom="6.2217172"
+     inkscape:cx="48.45929"
+     inkscape:cy="55.852748"
+     inkscape:window-width="1284"
+     inkscape:window-height="1081"
+     inkscape:window-x="180"
+     inkscape:window-y="633"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs2088">
@@ -63,6 +63,30 @@
          offset="1"
          id="stop67796" />
     </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Greyscale"
+       id="filter21847"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="1.50602 -0.60241 1.68675 -0.060241 0 1.50602 -0.60241 1.68675 -0.060241 0 1.50602 -0.60241 1.68675 -0.060241 0 0 0 0 1 0 "
+         id="feColorMatrix21845" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Greyscale"
+       id="filter21839"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="1.50602 -0.60241 1.68675 -0.060241 0 1.50602 -0.60241 1.68675 -0.060241 0 1.50602 -0.60241 1.68675 -0.060241 0 0 0 0 1 0 "
+         id="feColorMatrix21837" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -73,5 +97,10 @@
        d="M 17.851036,4.9628976 H 9.6603163 c 0,0 -2.7626397,-0.120595 -6.8341997,0.981853 v 0.587819 c 0,0 3.27097,-1.033528 6.44663,-1.033528 h 8.5750594 l 0.003,-0.536144"
        id="path36726"
        sodipodi:nodetypes="ccccscc" />
+    <path
+       style="display:inline;fill:#ffd700;fill-opacity:0.91764706;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0.2293666,6.8361686 0.23255,0.555522 1.26607,-0.497385 -0.0259,-0.613659"
+       id="path48258"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>

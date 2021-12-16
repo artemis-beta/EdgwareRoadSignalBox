@@ -3,10 +3,10 @@
 EWRB::LeverFrame::LeverFrame(QWidget* parent)
 {
     _parent = parent;
-    track_circuits_ = TrackCircuits(parent);
     _frame_svg = new QSvgWidget(QString(":/svgs/svgs/EWRBFrame.svg"), _parent);
     const Scaler* scaler_ = new Scaler;
     _frame_svg->setFixedSize(scaler_->screen_width(), scaler_->screen_height());
+    track_circuits_ = TrackCircuits(parent);
 
     for(int i{1}; i < 13; ++i)
     {
@@ -153,10 +153,97 @@ void EWRB::LeverFrame::placeSigIndicators()
     }
 }
 
+void EWRB::LeverFrame::placeTrackCircuitIndicators()
+{
+    track_circuits_["UF"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(39));
+    track_circuits_["UF"]->PlaceAt(scaler_->scale_width(157), scaler_->scale_height(159));
+    track_circuits_["UH"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(39));
+    track_circuits_["UH"]->PlaceAt(scaler_->scale_width(177), scaler_->scale_height(160));
+    track_circuits_["UJ"]->SetSize(scaler_->scale_width(34), scaler_->scale_height(37));
+    track_circuits_["UJ"]->PlaceAt(scaler_->scale_width(204), scaler_->scale_height(157));
+    track_circuits_["UK"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(39));
+    track_circuits_["UK"]->PlaceAt(scaler_->scale_width(227), scaler_->scale_height(159));
+    track_circuits_["UL"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(37));
+    track_circuits_["UL"]->PlaceAt(scaler_->scale_width(256), scaler_->scale_height(160));
+    track_circuits_["AA"]->SetSize(scaler_->scale_width(76), scaler_->scale_height(38));
+    track_circuits_["AA"]->PlaceAt(scaler_->scale_width(318), scaler_->scale_height(152));
+    track_circuits_["AB"]->SetSize(scaler_->scale_width(76), scaler_->scale_height(39));
+    track_circuits_["AB"]->PlaceAt(scaler_->scale_width(390), scaler_->scale_height(136));
+    track_circuits_["AC"]->SetSize(scaler_->scale_width(112), scaler_->scale_height(40));
+    track_circuits_["AC"]->PlaceAt(scaler_->scale_width(441), scaler_->scale_height(136));
+    track_circuits_["AD"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(39));
+    track_circuits_["AD"]->PlaceAt(scaler_->scale_width(531), scaler_->scale_height(135));
+    track_circuits_["AL"]->SetSize(scaler_->scale_width(74), scaler_->scale_height(57));
+    track_circuits_["AL"]->PlaceAt(scaler_->scale_width(543), scaler_->scale_height(122.5));
+    track_circuits_["AM"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(40));
+    track_circuits_["AM"]->PlaceAt(scaler_->scale_width(604), scaler_->scale_height(157));
+    track_circuits_["AK"]->SetSize(scaler_->scale_width(55), scaler_->scale_height(42));
+    track_circuits_["AK"]->PlaceAt(scaler_->scale_width(552), scaler_->scale_height(160));
+    track_circuits_["AJ"]->SetSize(scaler_->scale_width(57), scaler_->scale_height(43));
+    track_circuits_["AJ"]->PlaceAt(scaler_->scale_width(505), scaler_->scale_height(157));
+    track_circuits_["CA"]->SetSize(scaler_->scale_width(152), scaler_->scale_height(39));
+    track_circuits_["CA"]->PlaceAt(scaler_->scale_width(421), scaler_->scale_height(114));
+    track_circuits_["UL"]->SetState(TrackCircuitStatus::Occupied);
+    track_circuits_["AO"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(39));
+    track_circuits_["AO"]->PlaceAt(scaler_->scale_width(637), scaler_->scale_height(160));
+    track_circuits_["AP"]->SetSize(scaler_->scale_width(38), scaler_->scale_height(39));
+    track_circuits_["AP"]->PlaceAt(scaler_->scale_width(704), scaler_->scale_height(160));
+    track_circuits_["AQ_AS"]->SetSize(scaler_->scale_width(77), scaler_->scale_height(76));
+    track_circuits_["AQ_AS"]->PlaceAt(scaler_->scale_width(720), scaler_->scale_height(116));
+    track_circuits_["AE"]->SetSize(scaler_->scale_width(79), scaler_->scale_height(41));
+    track_circuits_["AE"]->PlaceAt(scaler_->scale_width(368), scaler_->scale_height(160));
+    track_circuits_["AF"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(40));
+    track_circuits_["AF"]->PlaceAt(scaler_->scale_width(434), scaler_->scale_height(157));
+    track_circuits_["AG"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(41));
+    track_circuits_["AG"]->PlaceAt(scaler_->scale_width(454), scaler_->scale_height(158));
+    track_circuits_["AV"]->SetSize(scaler_->scale_width(38), scaler_->scale_height(39));
+    track_circuits_["AV"]->PlaceAt(scaler_->scale_width(723), scaler_->scale_height(168));
+    track_circuits_["177_B"]->SetSize(scaler_->scale_width(37), scaler_->scale_height(38));
+    track_circuits_["177_B"]->PlaceAt(scaler_->scale_width(739), scaler_->scale_height(157));
+    track_circuits_["177_A_175_B"]->SetSize(scaler_->scale_width(38), scaler_->scale_height(39));
+    track_circuits_["177_A_175_B"]->PlaceAt(scaler_->scale_width(756), scaler_->scale_height(141));
+    track_circuits_["175_A_173"]->SetSize(scaler_->scale_width(72), scaler_->scale_height(39));
+    track_circuits_["175_A_173"]->PlaceAt(scaler_->scale_width(775), scaler_->scale_height(135));
+    track_circuits_["AX_AY_AZ"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(37));
+    track_circuits_["AX_AY_AZ"]->PlaceAt(scaler_->scale_width(735 ), scaler_->scale_height(188));
+    track_circuits_["133"]->SetSize(scaler_->scale_width(35), scaler_->scale_height(37));
+    track_circuits_["133"]->PlaceAt(scaler_->scale_width(725), scaler_->scale_height(190));
+    track_circuits_["129_A"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(38));
+    track_circuits_["129_A"]->PlaceAt(scaler_->scale_width(795), scaler_->scale_height(218));
+    track_circuits_["131_A_129_B"]->SetSize(scaler_->scale_width(37), scaler_->scale_height(39));
+    track_circuits_["131_A_129_B"]->PlaceAt(scaler_->scale_width(765), scaler_->scale_height(216));
+    track_circuits_["131_BC"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(39));
+    track_circuits_["131_BC"]->PlaceAt(scaler_->scale_width(738), scaler_->scale_height(203));
+    track_circuits_["BA"]->SetSize(scaler_->scale_width(38), scaler_->scale_height(38));
+    track_circuits_["BA"]->PlaceAt(scaler_->scale_width(702), scaler_->scale_height(177));
+    track_circuits_["BB"]->SetSize(scaler_->scale_width(36), scaler_->scale_height(37));
+    track_circuits_["BB"]->PlaceAt(scaler_->scale_width(678), scaler_->scale_height(177));
+    track_circuits_["BC"]->SetSize(scaler_->scale_width(39), scaler_->scale_height(36));
+    track_circuits_["BC"]->PlaceAt(scaler_->scale_width(653), scaler_->scale_height(180));
+    track_circuits_["BD"]->SetSize(scaler_->scale_width(112), scaler_->scale_height(38));
+    track_circuits_["BD"]->PlaceAt(scaler_->scale_width(559), scaler_->scale_height(184));
+    track_circuits_["BL"]->SetSize(scaler_->scale_width(77), scaler_->scale_height(38));
+    track_circuits_["BL"]->PlaceAt(scaler_->scale_width(544), scaler_->scale_height(171));
+    track_circuits_["BM"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(40));
+    track_circuits_["BM"]->PlaceAt(scaler_->scale_width(485), scaler_->scale_height(176));
+    track_circuits_["BN"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(40));
+    track_circuits_["BN"]->PlaceAt(scaler_->scale_width(429), scaler_->scale_height(176));
+    track_circuits_["BP"]->SetSize(scaler_->scale_width(76), scaler_->scale_height(41));
+    track_circuits_["BP"]->PlaceAt(scaler_->scale_width(372), scaler_->scale_height(176));
+    track_circuits_["BQ"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(38));
+    track_circuits_["BQ"]->PlaceAt(scaler_->scale_width(320), scaler_->scale_height(178));
+    track_circuits_["BV_BT_BR"]->SetSize(scaler_->scale_width(152), scaler_->scale_height(38));
+    track_circuits_["BV_BT_BR"]->PlaceAt(scaler_->scale_width(196), scaler_->scale_height(175));
+    track_circuits_["BJ"]->SetSize(scaler_->scale_width(77), scaler_->scale_height(37));
+    track_circuits_["BJ"]->PlaceAt(scaler_->scale_width(370), scaler_->scale_height(195));
+    track_circuits_["BH"]->SetSize(scaler_->scale_width(75), scaler_->scale_height(37));
+    track_circuits_["BH"]->PlaceAt(scaler_->scale_width(427), scaler_->scale_height(200));
+    track_circuits_["BE"]->SetSize(scaler_->scale_width(94), scaler_->scale_height(38));
+    track_circuits_["BE"]->PlaceAt(scaler_->scale_width(479), scaler_->scale_height(199));
+}
+
 void EWRB::LeverFrame::placeMapIndicators()
 {
-    const Scaler* scaler_ = new Scaler;
-
     _map_indicators[1]->PlaceAt(scaler_->scale_width(243), scaler_->scale_height(159));
     _map_indicators[2]->PlaceAt(scaler_->scale_width(302), scaler_->scale_height(159));
     _map_indicators[4]->PlaceAt(scaler_->scale_width(359), scaler_->scale_height(154));
@@ -181,7 +268,6 @@ void EWRB::LeverFrame::placeMapIndicators()
 
 void EWRB::LeverFrame::placeDescribers()
 {
-    const Scaler* scaler_ = new Scaler;
     const int start_x = 36;
     const int start_y = 97;
 
@@ -297,5 +383,9 @@ void EWRB::LeverFrame::update(const int& i)
             _map_indicators[signal_id]->update();
         }
         if(_sig_indicators.contains(i))_sig_indicators[i]->update();
+    }
+
+    for(const auto& tc : track_circuits_) {
+        tc->update();
     }
 }

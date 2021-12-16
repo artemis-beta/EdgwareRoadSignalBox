@@ -22,6 +22,7 @@ namespace EWRB
         Q_OBJECT
         private:
             QList<QSoundEffect*> _lever_sounds;
+            const Scaler* scaler_ = new Scaler;
             QMap<QString, TrackCircuit*> track_circuits_;
             QSoundEffect* _lever_failed = new QSoundEffect;
             QWidget* _parent = nullptr;
@@ -71,8 +72,12 @@ namespace EWRB
                 else _play_failed();
                 _levers[i]->moveLever(lever_state, points_move);
             }
+            QMap<QString, TrackCircuit*> getTrackCircuits() {
+                return track_circuits_;
+            }
             void placeSigIndicators();
             void placeMapIndicators();
+            void placeTrackCircuitIndicators();
             void placeDescribers();
             void _play_random_lever_sound();
             void _play_failed() {_lever_failed->play();}

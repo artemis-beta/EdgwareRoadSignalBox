@@ -94,6 +94,7 @@ void ERMainWindow::_add_indicators()
 
     _lever_frame->placeSigIndicators();
     _lever_frame->placeMapIndicators();
+    _lever_frame->placeTrackCircuitIndicators();
     _lever_frame->placeDescribers();
 }
 
