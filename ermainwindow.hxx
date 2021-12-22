@@ -6,6 +6,7 @@
 #include <QMap>
 #include <QSvgWidget>
 #include <QSoundEffect>
+#include <QColor>
 #include <QScreen>
 
 #include <algorithm>
